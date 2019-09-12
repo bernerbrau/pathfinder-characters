@@ -3,7 +3,7 @@ PCGVERSION:2.0
 # System Information
 CAMPAIGN:Pathfinder RPG for Players|CAMPAIGN:Dirty Tactics Toolbox|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Magic
 VERSION:6.08.00 RC7
-ROLLMETHOD:0|EXPRESSION:0
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm.ftl
@@ -104,7 +104,7 @@ SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
-SKILL:Disable Device|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Disable Device|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
 SKILL:Escape Artist|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
@@ -128,7 +128,7 @@ SKILL:Samurai Mount|OUTPUTORDER:43|
 SKILL:Sense Motive|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:45|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:46|
-SKILL:Sleight of Hand|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Stealth|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Survival|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Swim|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -137,10 +137,10 @@ SKILL:Untrained Dexterity|OUTPUTORDER:54|
 SKILL:Untrained Intelligence|OUTPUTORDER:55|
 SKILL:Untrained Strength|OUTPUTORDER:56|
 SKILL:Untrained Wisdom|OUTPUTORDER:57|
-SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:37|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:47|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:48|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:49|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:58|
 SKILL:Use Magic Device|OUTPUTORDER:59|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -164,7 +164,7 @@ ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue|TYPE:Favore
 USERPOOL:Favored Class|POOLPOINTS:0.0
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
-ABILITY:Rogue Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Rogue Archetype ~ Waylayer|TYPE:Archetype.RogueArchetype.RogueTrapfinding.RogueUncannyDodge.RogueImprovedUncannyDodge.ROGUETALENT12.ROGUETALENT20|DESC:A clever rogue knows the easiest battle to win is the one that's over before your foe knows it has begun. Some rogues thus specialize in setting up ambushes to catch their opponents off guard.
+ABILITY:Rogue Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Rogue Archetype ~ Waylayer|TYPE:Archetype.RogueArchetype.RogueTrapfinding.RogueUncannyDodge.RogueImprovedUncannyDodge.RogueTalent12.RogueTalent20|DESC:A clever rogue knows the easiest battle to win is the one that's over before your foe knows it has begun. Some rogues thus specialize in setting up ambushes to catch their opponents off guard.
 USERPOOL:Rogue Archetype|POOLPOINTS:0.0
 ABILITY:Rogue Class Selection|TYPE:NORMAL|CATEGORY:Class|KEY:Rogue ~ Unchained Class|TYPE:Rogue Class Selection.AltRogueChoice
 USERPOOL:Rogue Class Selection|POOLPOINTS:0.0
@@ -187,21 +187,19 @@ WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light
 # Character Equipment
 MONEY:482.00
 EQUIPNAME:+1 Dagger|OUTPUTORDER:1|COST:2302.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=+1 Dagger$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Weapon$SPROP=(+1 Dagger)]
-EQUIPNAME:Bolt, Crossbow|OUTPUTORDER:3|COST:0.1|WT:0.1|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Base)|DATA:NAME=Bolt, Crossbow$KEY=Bolt (Crossbow)$EQMOD=Material ~ Steel.Material ~ Wood]
-EQUIPNAME:Bolts, Crossbow (10)|OUTPUTORDER:4|COST:0.1|WT:0.1|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Base)|DATA:NAME=Bolts, Crossbow (10)$KEY=Bolts (Crossbow/10)$EQMOD=Material ~ Steel.Material ~ Wood]
-EQUIPNAME:Crossbow, Light|OUTPUTORDER:6|COST:35.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Light Crossbow (Base)|DATA:NAME=Crossbow, Light$KEY=Crossbow (Light)$EQMOD=Material ~ Wood]
+EQUIPNAME:Bolt, Crossbow|OUTPUTORDER:3|COST:0.1|WT:0.1|QUANTITY:22.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Base)|DATA:NAME=Bolt, Crossbow$KEY=Bolt (Crossbow)$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Crossbow, Light|OUTPUTORDER:5|COST:35.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Light Crossbow (Base)|DATA:NAME=Crossbow, Light$KEY=Crossbow (Light)$EQMOD=Material ~ Wood]
 EQUIPNAME:Leather Armor|OUTPUTORDER:2|COST:10.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather Armor (Base)|DATA:NAME=Leather Armor$KEY=Leather$EQMOD=Material ~ Leather]
-EQUIPNAME:Potion of Invisibility|OUTPUTORDER:5|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Invisibility|DATA:NAME=Potion of Invisibility$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Invisibility&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
-EQUIPNAME:Rapier|OUTPUTORDER:7|COST:20.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier (Base)|DATA:NAME=Rapier$EQMOD=Material ~ Steel]
+EQUIPNAME:Potion of Invisibility|OUTPUTORDER:4|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Invisibility|DATA:NAME=Potion of Invisibility$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Invisibility&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
+EQUIPNAME:Rapier|OUTPUTORDER:6|COST:20.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier (Base)|DATA:NAME=Rapier$EQMOD=Material ~ Steel]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Armor|ID:0.1.01|VALUE:Leather Armor|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.03|VALUE:Bolt, Crossbow|QUANTITY:2.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.04|VALUE:Bolts, Crossbow (10)|QUANTITY:2.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.07|VALUE:Potion of Invisibility|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Secondary Hand|ID:0.1.08|VALUE:+1 Dagger|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.10|VALUE:Crossbow, Light|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Primary Hand|ID:0.1.11|VALUE:+1 Dagger|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.12|VALUE:Rapier|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.10|VALUE:Bolt, Crossbow|QUANTITY:22.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.11|VALUE:Potion of Invisibility|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.14|VALUE:Crossbow, Light|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.16|VALUE:+1 Dagger|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.18|VALUE:Rapier|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
