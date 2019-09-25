@@ -1,0 +1,219 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Pathfinder RPG for Players
+VERSION:6.08.00 RC6
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Vor d'Averbill
+TABNAME:Vor
+PLAYERNAME:Shawn/Derek
+HEIGHT:0
+WEIGHT:0
+AGE:20
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:11
+STAT:DEX|SCORE:15
+STAT:CON|SCORE:14
+STAT:INT|SCORE:15
+STAT:WIS|SCORE:16
+STAT:CHA|SCORE:16
+ALIGN:TN
+RACE:Human
+
+# Character Class(es)
+CLASS:Druid|LEVEL:3|SKILLPOOL:0
+CLASSABILITIESLEVEL:Druid=1|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Druid=2|HITPOINTS:2|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Druid=3|HITPOINTS:4|PRESTAT:STR=-7|PRESTAT:WIS=5|PRESTAT:CHA=0|SKILLSGAINED:7|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:7138
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ All]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Druid|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:10|
+SKILL:Diplomacy|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Druid|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
+SKILL:Disguise|OUTPUTORDER:17|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
+SKILL:Escape Artist|OUTPUTORDER:19|
+SKILL:Fly|OUTPUTORDER:20|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
+SKILL:Handle Animal|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Druid|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:24|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:25|
+SKILL:Heal|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Druid|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Druid|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:29|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:30|
+SKILL:Knowledge (Geography)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Druid|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nature)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Druid|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:33|
+SKILL:Perception|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Druid|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:36|
+SKILL:Profession (Untrained)|OUTPUTORDER:37|
+SKILL:Ride|OUTPUTORDER:38|
+SKILL:Samurai Mount|OUTPUTORDER:39|
+SKILL:Sense Motive|OUTPUTORDER:40|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:41|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:42|
+SKILL:Spellcraft|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Druid|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:46|
+SKILL:Survival|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Druid|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Druid|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:49|
+SKILL:Untrained Dexterity|OUTPUTORDER:50|
+SKILL:Untrained Intelligence|OUTPUTORDER:51|
+SKILL:Untrained Strength|OUTPUTORDER:52|
+SKILL:Untrained Wisdom|OUTPUTORDER:53|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:23|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:34|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:43|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:44|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:54|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Druidic|LANGUAGE:Elven|LANGUAGE:Orc
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Elven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Elven|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Wisdom|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Druid Domain|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Druid Domain ~ Earth|TYPE:DruidDomainSelection.SpecialQuality|DESC:You have mastery over earth, metal, and stone, can fire darts of acid, and command earth creatures.
+USERPOOL:Druid Domain|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Reflexes|TYPE:Combat|DESC:You can make additional attacks of opportunity.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Endurance|TYPE:General.DruidShamanBear|DESC:Harsh conditions or long exertions do not easily tire you.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Fast Learner|TYPE:General|DESC:Your progress gains extra versatility.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Druid|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
+ABILITY:Nature Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Nature's Bond ~ Druid Domain|TYPE:DruidClassFeatures.SpecialQuality.Extraordinary.NatureBond.DruidDomain.CF_Domain|DESC:If choosing a domain, the bear shaman must choose from the Animal, Earth, Protection, and Strength domains.&pipe;PREABILITY&colon;1,CATEGORY=Archetype,Druid Archetype ~ Bear Shaman|DESC:If choosing a domain, the eagle shaman must choose from the Air, Animal, Nobility, and Weather domains.&pipe;PREABILITY&colon;1,CATEGORY=Archetype,Druid Archetype ~ Eagle Shaman|DESC:If choosing a domain, the lion shaman must choose from the Animal, Glory, Nobility, and Sun domains.&pipe;PREABILITY&colon;1,CATEGORY=Archetype,Druid Archetype ~ Lion Shaman|DESC:If choosing a domain, the serpent shaman must choose from the Animal, Charm, Trickery, and Water domains.&pipe;PREABILITY&colon;1,CATEGORY=Archetype,Druid Archetype ~ Serpent Shaman|DESC:If choosing a domain, the wolf shaman must choose from the Animal, Community, Liberation, and Travel domains.&pipe;PREABILITY&colon;1,CATEGORY=Archetype,Druid Archetype ~ Wolf Shaman|DESC:You may not choose an animal companion. You must choose the Air or Weather domain, or the Cloud, Storm, or Wind subdomain.&pipe;PREABILITY&colon;1,CATEGORY=Archetype,Druid Archetype ~ Storm Druid
+USERPOOL:Nature Bond|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Life of Toil|TYPE:Trait.BasicTrait.SocialTrait|DESC:You have lived a physically taxing life, working long hours for a master or to support a trade. Hard physical labor has toughened your body and mind. You gain a +1 trait bonus on Fortitude saves.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Oathbound|TYPE:Trait.BasicTrait.FaithTrait|DESC:You have made a solemn oath, and you pursue that oath with headstrong determination. Once per day, you may reroll a saving throw against a charm or compulsion effect. You must take the second result even if it is worse.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Club|WEAPON:Dagger|WEAPON:Dart|WEAPON:Grapple|WEAPON:Quarterstaff|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling]
+WEAPONPROF:[WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Buckler|OUTPUTORDER:4|COST:5.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Buckler (Base)|DATA:NAME=Buckler$EQMOD=Material ~ Steel]
+EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:2|COST:4000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +2|DATA:NAME=Cloak of Resistance +2$EQMOD=Material ~ Cloth]
+EQUIPNAME:Holly and Mistletoe|OUTPUTORDER:6|COST:0|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Leather Armor|OUTPUTORDER:3|COST:10.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather Armor (Base)|DATA:NAME=Leather Armor$KEY=Leather$EQMOD=Material ~ Leather]
+EQUIPNAME:Orb of Revenin|OUTPUTORDER:5|COST:0.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ball (10 in)|DATA:NAME=Orb of Revenin$EQMOD=Material ~ Stone.ADDTYPE&pipe;Magic._WEIGHTADD&pipe;1$SPROP=3 charges Raise Undead, Dispel Magic, Shocking Grasp. Recovers 1d3 charges/day$COSTMOD=-1.5]
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:7|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Light Wounds|DATA:NAME=Potion of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Silver Sickle|OUTPUTORDER:1|COST:26.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sickle (Base)|DATA:NAME=Silver Sickle$KEY=Silver Sickle (Base)$EQMOD=Special Quality ~ Trip.Material ~ Alchemical Silver]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.01|VALUE:Holly and Mistletoe|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.02|VALUE:Leather Armor|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.03|VALUE:Potion of Cure Light Wounds|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.04|VALUE:Silver Sickle|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shield|ID:0.1.05|VALUE:Buckler|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Orb of Revenin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.07|VALUE:Cloak of Resistance +2|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Shelyn|DEITYDOMAINS:[DOMAIN:Air|DOMAIN:Charm|DOMAIN:Good|DOMAIN:Luck|DOMAIN:Protection|DOMAIN:Agathion Subdomain|DOMAIN:Cloud Subdomain|DOMAIN:Defense Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Love Subdomain|DOMAIN:Purity Subdomain]|ALIGNALLOW:|DESC:Goddess of beauty, art, love, music|DEITYFAVWEAP:[WEAPON:Glaive]|DEITYALIGN:NG
+DOMAIN:Earth|DOMAINGRANTS:You have mastery over earth, metal, and stone, can fire darts of acid, and command earth creatures.|SOURCE:[TYPE:PCClass|NAME:Druid|LEVEL:3]
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:1:1:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
