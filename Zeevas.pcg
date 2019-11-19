@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Pathfinder RPG for Players
+CAMPAIGN:Pathfinder RPG for Players|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Wilderness
 VERSION:6.08.00 RC6
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -24,18 +24,18 @@ ALLOWDEBT:N
 AUTORESIZEGEAR:Y
 
 # Character Bio
-CHARACTERNAME:Zeevas
+CHARACTERNAME:Zak
 TABNAME:
-PLAYERNAME:Bob
-HEIGHT:74
-WEIGHT:185
-AGE:20
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
 GENDER:Male
-HANDED:Right
-SKINCOLOR:Medium
-EYECOLOR:Brown
-HAIRCOLOR:Black
-HAIRSTYLE:Bald
+HANDED:None
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
 LOCATION:
 CITY:
 BIRTHDAY:
@@ -46,159 +46,90 @@ SPEECHPATTERN:
 PHOBIAS:
 INTERESTS:
 CATCHPHRASE:
-PORTRAIT:/Users/bobmcclellan/Google Drive/RPG Characters/Zeevas/zeevas.png
-PORTRAITTHUMBNAILRECT:377,41,381,381
+PORTRAIT:
 
 # Character Attributes
-STAT:STR|SCORE:16
-STAT:DEX|SCORE:8
-STAT:CON|SCORE:16
-STAT:INT|SCORE:12
-STAT:WIS|SCORE:11
-STAT:CHA|SCORE:13
-ALIGN:LG
-RACE:Human
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:10
+STAT:CON|SCORE:10
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:11
+ALIGN:TN
+RACE:Companion (Yak)
 
 # Character Class(es)
-CLASS:Paladin|LEVEL:4|SKILLPOOL:0
-CLASSABILITIESLEVEL:Paladin=1|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Paladin=2|HITPOINTS:9|SKILLSGAINED:4|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Paladin=3|HITPOINTS:4|SKILLSGAINED:4|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Paladin=4|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASS:Companion|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Companion=1|HITPOINTS:1|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Companion=2|HITPOINTS:1|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Companion=3|HITPOINTS:5|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Companion=4|HITPOINTS:2|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Companion=5|HITPOINTS:5|SKILLSGAINED:1|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:14613
+EXPERIENCE:0
 EXPERIENCETABLE:Medium
 
 # Character Templates
 TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
 TEMPLATESAPPLIED:[NAME:REACH_5]
-TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ All]
+TEMPLATESAPPLIED:[NAME:Gore 1 (Medium)]
 
 # Character Region
 REGION:None
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|
-SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
-SKILL:Appraise|OUTPUTORDER:3|
-SKILL:Bluff|OUTPUTORDER:4|
-SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
-SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
-SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
-SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
-SKILL:Climb|OUTPUTORDER:9|
-SKILL:Craft (Armor)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Craft (Untrained)|OUTPUTORDER:11|
-SKILL:Craft (Weapons)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
-SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
-SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
-SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
-SKILL:Disguise|OUTPUTORDER:19|
-SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
-SKILL:Escape Artist|OUTPUTORDER:21|
-SKILL:Fly|OUTPUTORDER:22|
-SKILL:Fly (Perform (Dance))|OUTPUTORDER:23|
-SKILL:Handle Animal|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
-SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
-SKILL:Heal|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Intimidate|OUTPUTORDER:29|
-SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:30|
-SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
-SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
-SKILL:Knowledge (Nature)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Nobility)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Religion)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Untrained)|OUTPUTORDER:36|
-SKILL:Perception|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Paladin|RANKS:3.0|COST:1|CLASSSKILL:N]
-SKILL:Perform (Untrained)|OUTPUTORDER:39|
-SKILL:Profession (Herbalist)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Profession (Untrained)|OUTPUTORDER:41|
-SKILL:Ride|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Samurai Mount|OUTPUTORDER:43|
-SKILL:Sense Motive|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:45|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:46|
-SKILL:Spellcraft|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:50|
-SKILL:Survival|OUTPUTORDER:51|
-SKILL:Swim|OUTPUTORDER:52|
-SKILL:Untrained Charisma|OUTPUTORDER:53|
-SKILL:Untrained Dexterity|OUTPUTORDER:54|
-SKILL:Untrained Intelligence|OUTPUTORDER:55|
-SKILL:Untrained Strength|OUTPUTORDER:56|
-SKILL:Untrained Wisdom|OUTPUTORDER:57|
-SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:37|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:47|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:49|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:58|
+SKILL:Acrobatics|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
-LANGUAGE:Common|LANGUAGE:Elven
+
 
 # Character Feats
 FEATPOOL:0.0
 
 # Character Abilities
-ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Elven|TYPE:
-USERPOOL:*LANGBONUS|POOLPOINTS:0.0
-ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
-USERPOOL:Ability Bonus|POOLPOINTS:0.0
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Endurance|TYPE:General.DruidShamanBear|DESC:Harsh conditions or long exertions do not easily tire you.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Mercy|TYPE:General|DESC:Your mercy has incredible recuperative properties.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Skill Focus|APPLIEDTO:Heal|TYPE:General.SkillFocus|DESC:You are particularly adept at your chosen skill.
-USERPOOL:FEAT|POOLPOINTS:0.0
-ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paladin|TYPE:FavoredClass
-USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Energy Resistance Paladin|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassPaladin|DESC:Add +1 to the paladin's energy resistance to one kind of energy (maximum +10).
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Sense Motive,Perception|TYPE:FavoredClassBonus
-USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
-ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
-USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
-ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Sickened|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the target is no longer sickened.
-USERPOOL:Mercy|POOLPOINTS:0.0
-ABILITY:Paladin Energy Resistance|TYPE:NORMAL|CATEGORY:Internal|KEY:Paladin Resistance ~ Cold|APPLIEDTO:|TYPE:PaladinFavoredEnergyResistance
-USERPOOL:Paladin Energy Resistance|POOLPOINTS:0.0
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Blessed|TYPE:Trait.BasicTrait.FaithTrait|DESC:Some divine agent watches over you and heeds your call. Once per day as a swift action, you gain a +1 trait bonus on all saving throws for 1 round.
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Child of Nature|APPLIEDTO:Knowledge (Nature)|TYPE:Trait.ReligionTrait|DESC:You have been blessed by Gozreh to be as comfortable in the wilderness as you are at home. You gain a +2 trait bonus on Survival checks to find food and water, and a +1 trait bonus on Knowledge (nature) checks. One of these skills (your choice) is always a class skill for you.
-USERPOOL:Traits|POOLPOINTS:0.0
+ABILITY:Animal Companion Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Companion Feat ~ Endurance|TYPE:AnimalCompanionFeat|DESC:You gain a +4 bonus on the following checks and saves&colon; Swim checks made to resist nonlethal damage from exhaustion; Constitution checks made to continue running; Constitution checks made to avoid nonlethal damage from a forced march; Constitution checks made to hold your breath; Constitution checks made to avoid nonlethal damage from starvation or thirst; Fortitude saves made to avoid nonlethal damage from hot or cold environments; and Fortitude saves made to resist damage from suffocation. You may sleep in light or medium armor without becoming fatigued.
+ABILITY:Animal Companion Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Companion Feat ~ Power Attack|TYPE:AnimalCompanionFeat|DESC:You can choose to take a -%1 penalty on all melee attack rolls and combat maneuver checks to gain a +%2 bonus on all melee damage rolls. This bonus to damage is increased by half (+50%%) if you are making an attack with a two-handed weapon, a one handed weapon using two hands, or a primary natural weapon that adds 1-1/2 times your Strength modifier on damage rolls. This bonus to damage is halved (-50%%) if you are making an attack with an off-hand weapon or secondary natural weapon. You must choose to use this feat before making an attack roll, and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage.&pipe;1+BAB/4&pipe;2*floor(1+BAB/4)
+ABILITY:Animal Companion Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Companion Feat ~ Toughness|TYPE:AnimalCompanionFeat|DESC:You gain +%1 hit points.&pipe;max(3,TL)|DESC:You gain +1 hit points whenever you gain a Hit Die (such as when you gain a level).&pipe;PREHD&colon;MIN=3
+USERPOOL:Animal Companion Feat|POOLPOINTS:0.0
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Attack|TYPE:AnimalTrick|DESC:The animal attacks apparent enemies. You may point to a particular creature that you wish the animal to attack, and it will comply if able. Normally, an animal will attack only humanoids, monstrous humanoids, giants, or other animals. Teaching an animal to attack all creatures (including such unnatural creatures as undead and aberrations) counts as two tricks.|DESC:Animal will attack all creatures&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Animal Trick ~ Attack II
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Attack II|TYPE:AnimalTrick|DESC:Animal will attack all creatures (including such unnatural creatures as undead and aberrations).
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Come|TYPE:AnimalTrick|DESC:The animal comes to you, even if it normally would not do so.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Defend|TYPE:AnimalTrick|DESC:The animal defends you (or is ready to defend you if no threat is present), even without any command being given. Alternatively, you can command the animal to defend another specific character.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Deliver|TYPE:AnimalTrick|DESC:The animal takes an object to a place or person you indicate.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Demolish|TYPE:AnimalTrick|DESC:The companion can be commanded to attack and damage objects and structures. The companion's handler can direct it either to make natural attacks against the object in question or to make a Strength check to attempt to break it (if applicable).
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Detect|TYPE:AnimalTrick|DESC:The animal is trained to seek out the smells of explosives and poisons, unusual noises or echoes, air currents, and other common elements signifying potential dangers or secret passages.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Fetch|TYPE:AnimalTrick|DESC:The animal goes and gets something. If you do not point out a specific item, the animal fetches a random object.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Get Help|TYPE:AnimalTrick|DESC:With this trick, a trainer can designate a number of creatures up to the animal's Intelligence score as "help." When the command is given, the animal attempts to find one of those people and bring her back to the handler, even if that means journeying a long distance to the last place it encountered the target creature.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Guard|TYPE:AnimalTrick|DESC:The animal stays in place and prevents others from approaching.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Guide|TYPE:AnimalTrick|DESC:The companion can serve as a guide to a character that is blinded or otherwise unable to see. The companion remains adjacent to the guided creature at all times, readying an action each round to move when that creature moves. This allows the guided creature to automatically succeed at Acrobatics checks to move at more than half speed while blinded. Additionally, the companion identifies obstacles in the guided creature's path and pushes them, pulls them, or otherwise signals to the creature how to avoid them, allowing the guided creature to locate and move around obstacles such as hazards, opponents, and other terrain features as though she were able to see them (though she can't distinguish between obstacles). Finally, while serving as a guide, the companion indicates to the guided creature the presence and direction of any adjacent allies, allowing the guided creature to pinpoint the locations of such creatures.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Heel|TYPE:AnimalTrick|DESC:The animal follows you closely, even to places where it normally wouldn't go.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Intimidate|TYPE:AnimalTrick|DESC:The companion bares its teeth, barks, bristles, growls, or otherwise threatens a creature you designate, or, alternatively, it can be trained to do so when it encounters any creature besides its handler. The companion takes a -4 penalty on Intimidate checks against creatures other than those with the animal or humanoid types unless it has also been trained to attack creatures of any type. A companion that knows this trick automatically uses the aid another action to assist Intimidate checks attempted by its handler, provided that it is within 15 feet of its handler at the time and has not been ordered to perform another task.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Maneuver ~ Bull Rush|TYPE:AnimalTrick|DESC:The animal is trained to use the bull rush combat maneuver on command. It performs maneuvers only against targets it would normally attack.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Maneuver ~ Drag|TYPE:AnimalTrick|DESC:The animal is trained to use the drag combat maneuver on command. It performs maneuvers only against targets it would normally attack.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Rescue|TYPE:AnimalTrick|DESC:The companion has been trained to drag its handler or another creature that the handler designates out of danger and to a safe place in the event that the handler or creature is incapacitated. If a creature that the companion is defending is rendered helpless or is slain, the companion will carry, drag, or otherwise move that creature out of danger. If the companion knows the get help trick, it will attempt to bring the creature it is rescuing to one of the creatures designated as "help." Otherwise, you can designate a single location in advance as a safe place, and the companion will attempt to bring the creature it is rescuing to that place. If it is unable to do either of these, the companion simply moves the creature to the nearest location of relative safety.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Speak|TYPE:AnimalTrick|DESC:The companion is able to communicate very simple concepts through barks, gestures, whistles, or similar actions. The companion's vocabulary is extremely limited, generally restricted to "yes," "no," and counting up to three. The companion is also able to recognize and respond to up to two specific questions per point of Intelligence.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Stay|TYPE:AnimalTrick|DESC:The animal stays in place, waiting for you to return. It does not challenge other creatures that come by, though it still defends itself if it needs to.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Watch|TYPE:AnimalTrick|DESC:The animal can be commanded to keep watch over a particular area, such as a campsite, and raise an alarm if it notices any sizable or dangerous creature entering the area.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Work|TYPE:AnimalTrick|DESC:The animal pulls or pushes a medium or heavy load.
+USERPOOL:Animal Trick|POOLPOINTS:0.0
+ABILITY:Companion Level Increase Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Companion Advancement|TYPE:CompChoice
+USERPOOL:Companion Level Increase Choice|POOLPOINTS:0.0
+ABILITY:Companion Stat Increase|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Companion Stat ~ STR|APPLIEDTO:|TYPE:CompStatChoice
+USERPOOL:Companion Stat Increase|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
-WEAPONPROF:[WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill|WEAPON:Blowgun]
-WEAPONPROF:[WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger]
-WEAPONPROF:[WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)]
-WEAPONPROF:[WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)]
-WEAPONPROF:[WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar]
-WEAPONPROF:[WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock]
-WEAPONPROF:[WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube]
-WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe]
-WEAPONPROF:[WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)]
-WEAPONPROF:[WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane]
-WEAPONPROF:[WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
-WEAPONPROF:[WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+WEAPONPROF:[WEAPON:Gore]
 
 # Character Equipment
-MONEY:67.5499999999999971578290569595992565155029296875
-EQUIPNAME:Belt of Mighty Constitution +2|OUTPUTORDER:3|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Bolts, Crossbow (10)|OUTPUTORDER:6|COST:0.1|WT:0.1|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Base)|DATA:NAME=Bolts, Crossbow (10)$KEY=Bolts (Crossbow/10)$EQMOD=Material ~ Steel.Material ~ Wood]
-EQUIPNAME:Full Plate|OUTPUTORDER:4|COST:1500.0|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Full Plate (Base)|DATA:NAME=Full Plate$EQMOD=Material ~ Steel]
-EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:2|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Base)|DATA:NAME=Gauntlet$KEY=Gauntlet (Part of Armor Suit)]
-EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Base)|DATA:NAME=Gauntlet$KEY=Gauntlet (Part of Armor Suit)]
-EQUIPNAME:Sword, Short|OUTPUTORDER:1|COST:10.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Short Sword (Base)|DATA:NAME=Sword, Short$KEY=Sword (Short)$EQMOD=Material ~ Steel]
-EQUIPNAME:Uniform (Soldier's)|OUTPUTORDER:5|COST:1|WT:5.0|QUANTITY:1.0|NOTE:
+MONEY:0
+EQUIPNAME:Gore (Natural/Primary)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gore|DATA:KEY=Gore]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
-EQUIPSET:Armor|ID:0.1.01|VALUE:Full Plate|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Primary Hand|ID:0.1.02|VALUE:Sword, Short|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Torso|ID:0.1.05|VALUE:Uniform (Soldier's)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Secondary Hand|ID:0.1.06|VALUE:Gauntlet|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.07|VALUE:Bolts, Crossbow (10)|QUANTITY:3.0|USETEMPMODS:Y
-EQUIPSET:Belt|ID:0.1.08|VALUE:Belt of Mighty Constitution +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Gore (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
@@ -206,10 +137,8 @@ CALCEQUIPSET:0.1
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
-DEITY:Gozreh|DEITYDOMAINS:[DOMAIN:Air|DOMAIN:Animal|DOMAIN:Plant|DOMAIN:Water|DOMAIN:Weather|DOMAIN:Cloud Subdomain|DOMAIN:Decay Subdomain|DOMAIN:Growth Subdomain|DOMAIN:Oceans Subdomain|DOMAIN:Seasons Subdomain|DOMAIN:Wind Subdomain]|ALIGNALLOW:|DESC:God of nature, weather, the sea|DEITYFAVWEAP:[WEAPON:Trident]|DEITYALIGN:TN
 
 # Character Spells Information
-SPELLBOOK:Class|TYPE:4
 
 # Character Description/Bio/History
 CHARACTERBIO:
@@ -220,13 +149,15 @@ CHARACTERMAGIC:
 CHARACTERDMNOTES:
 
 # Kits
+KIT:Companion ~ Yak
 
 # Character Master/Follower
+MASTER:Zeevas|TYPE:Special Mount|HITDICE:3|FILE:Zeevas.pcg|ADJUSTMENT:0
 
 # Character Notes Tab
 
 # Age Set Selections
-AGESET:0:0:1:0:0:0:0:0:0:0
+AGESET:0:0:0:0:0:0:0:0:0:0
 
 # Campaign History
 
