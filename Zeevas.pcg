@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Pathfinder RPG for Players
+CAMPAIGN:Pathfinder RPG for Players|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Wilderness
 VERSION:6.08.00 RC6
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -60,14 +60,15 @@ ALIGN:LG
 RACE:Human
 
 # Character Class(es)
-CLASS:Paladin|LEVEL:4|SKILLPOOL:0
+CLASS:Paladin|LEVEL:5|SKILLPOOL:0
 CLASSABILITIESLEVEL:Paladin=1|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Paladin=2|HITPOINTS:9|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Paladin=3|HITPOINTS:4|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Paladin=4|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=5|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:14613
+EXPERIENCE:18043
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -105,7 +106,7 @@ SKILL:Handle Animal|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|C
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
 SKILL:Heal|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Intimidate|OUTPUTORDER:29|
+SKILL:Intimidate|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:30|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
@@ -113,13 +114,13 @@ SKILL:Knowledge (Nature)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COS
 SKILL:Knowledge (Nobility)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Religion)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:36|
-SKILL:Perception|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Paladin|RANKS:3.0|COST:1|CLASSSKILL:N]
+SKILL:Perception|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Paladin|RANKS:4.0|COST:1|CLASSSKILL:N]
 SKILL:Perform (Untrained)|OUTPUTORDER:39|
 SKILL:Profession (Herbalist)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Profession (Untrained)|OUTPUTORDER:41|
-SKILL:Ride|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Samurai Mount|OUTPUTORDER:43|
-SKILL:Sense Motive|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:45|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:46|
 SKILL:Spellcraft|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -149,15 +150,18 @@ ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Elv
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Divine Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Divine Bond ~ Special Mount|TYPE:PaladinClassFeatures.SpecialQuality.SpellLike.DivineBond.Divine Bond.Special Mount.Divine Bond Mount|DESC:Your divine bond allows you to gain the service of an unusually intelligent, strong, and loyal steed to serve you in your crusade against evil.|DESC:Your divine bond allows you to gain the service of an unusually intelligent, strong, and loyal steed to serve you in your crusade against evil. This mount is usually a heavy horse (for a Medium paladin) or a pony (for a Small paladin), although more exotic mounts, such as a boar, camel, or dog are also suitable. This mount functions as a druid's animal companion, with an effective druid level of 1. Bonded mounts have an Intelligence of at least 6. %1 times day, as a full-round action, you may magically call your mount to your side. This ability is the equivalent of a spell of level %2. The mount immediately appears adjacent to you. Should your mount die, you may not summon another mount for 30 days, or until you gain a level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.&pipe;DivineBondTimes&pipe;SpecialMountSpellLevel&pipe;PREVARGTEQ&colon;DivineBondLVL,5&pipe;PREVARLT&colon;DivineBondLVL,11|DESC:Your divine bond allows you to gain the service of an unusually intelligent, strong, and loyal steed to serve you in your crusade against evil. This mount is usually a heavy horse (for a Medium paladin) or a pony (for a Small paladin), although more exotic mounts, such as a boar, camel, or dog are also suitable. The mount gains the celestial template and becomes a magical beast for the purposes of which spells affect it. This mount functions as a druid's animal companion, with an effective druid level of 1. Bonded mounts have an Intelligence of at least 6. %1 times day, as a full-round action, you may magically call your mount to your side. This ability is the equivalent of a spell of level %2. The mount immediately appears adjacent to you. Should your mount die, you may not summon another mount for 30 days, or until you gain a level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.&pipe;DivineBondTimes&pipe;SpecialMountSpellLevel&pipe;PREVARGTEQ&colon;DivineBondLVL,11&pipe;PREVARLT&colon;DivineBondLVL,15|DESC:Your divine bond allows you to gain the service of an unusually intelligent, strong, and loyal steed to serve you in your crusade against evil. This mount is usually a heavy horse (for a Medium paladin) or a pony (for a Small paladin), although more exotic mounts, such as a boar, camel, or dog are also suitable. The mount gains the celestial template and becomes a magical beast for the purposes of which spells affect it, and it has spell resistance %2. This mount functions as a druid's animal companion, with an effective druid level of 1. Bonded mounts have an Intelligence of at least 6. %1 times day, as a full-round action, you may magically call your mount to your side. This ability is the equivalent of a spell of level %3. The mount immediately appears adjacent to you. Should your mount die, you may not summon another mount for 30 days, or until you gain a level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.&pipe;DivineBondTimes&pipe;SpecialMountSR&pipe;SpecialMountSpellLevel&pipe;PREVARGTEQ&colon;DivineBondLVL,11&pipe;PREVARLT&colon;DivineBondLVL,15
+USERPOOL:Divine Bond|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Endurance|TYPE:General.DruidShamanBear|DESC:Harsh conditions or long exertions do not easily tire you.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Mercy|TYPE:General|DESC:Your mercy has incredible recuperative properties.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Skill Focus|APPLIEDTO:Heal|TYPE:General.SkillFocus|DESC:You are particularly adept at your chosen skill.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Word of Healing|TYPE:General|DESC:Using the same divine energy as your lay on hands ability, you can heal others at a distance.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paladin|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Energy Resistance Paladin|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassPaladin|DESC:Add +1 to the paladin's energy resistance to one kind of energy (maximum +10).
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Sense Motive,Perception|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Sense Motive,Perception,Diplomacy|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
 USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
@@ -165,6 +169,8 @@ ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Sickened|TYPE:Pal
 USERPOOL:Mercy|POOLPOINTS:0.0
 ABILITY:Paladin Energy Resistance|TYPE:NORMAL|CATEGORY:Internal|KEY:Paladin Resistance ~ Cold|APPLIEDTO:|TYPE:PaladinFavoredEnergyResistance
 USERPOOL:Paladin Energy Resistance|POOLPOINTS:0.0
+ABILITY:Special Mount Choice|TYPE:NORMAL|CATEGORY:Internal|KEY:Special Mount ~ Expanded Choices|TYPE:SpecialMountSelection.SpecialMountAlternate
+USERPOOL:Special Mount Choice|POOLPOINTS:0.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Blessed|TYPE:Trait.BasicTrait.FaithTrait|DESC:Some divine agent watches over you and heeds your call. Once per day as a swift action, you gain a +1 trait bonus on all saving throws for 1 round.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Child of Nature|APPLIEDTO:Knowledge (Nature)|TYPE:Trait.ReligionTrait|DESC:You have been blessed by Gozreh to be as comfortable in the wilderness as you are at home. You gain a +2 trait bonus on Survival checks to find food and water, and a +1 trait bonus on Knowledge (nature) checks. One of these skills (your choice) is always a class skill for you.
 USERPOOL:Traits|POOLPOINTS:0.0
@@ -222,6 +228,7 @@ CHARACTERDMNOTES:
 # Kits
 
 # Character Master/Follower
+FOLLOWER:Zak|TYPE:Special Mount|RACE:COMPANION (YAK)|HITDICE:0|FILE:Zak.pcg
 
 # Character Notes Tab
 

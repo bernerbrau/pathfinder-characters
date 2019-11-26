@@ -59,14 +59,15 @@ ALIGN:CN
 RACE:Elf
 
 # Character Class(es)
-CLASS:Rogue|LEVEL:4|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Rogue|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:8|SKILLSGAINED:9|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=2|HITPOINTS:1|SKILLSGAINED:9|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:8|SKILLSGAINED:9|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=4|HITPOINTS:4|PRESTAT:CON=1|PRESTAT:INT=-2|PRESTAT:STR=2|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=5|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:13965
+EXPERIENCE:19395
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -85,7 +86,7 @@ TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Giant]
 REGION:None
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Artistry|OUTPUTORDER:4|
@@ -94,7 +95,7 @@ SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
-SKILL:Climb|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:5|
 SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:29|
 SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:40|
@@ -105,7 +106,7 @@ SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
 SKILL:Disable Device|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Disguise|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
 SKILL:Escape Artist|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Fly|OUTPUTORDER:23|
@@ -120,7 +121,7 @@ SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:33|
 SKILL:Knowledge (Local)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:35|
 SKILL:Linguistics|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Read Lips
-SKILL:Perception|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:39|
 SKILL:Profession (Untrained)|OUTPUTORDER:41|
 SKILL:Ride|OUTPUTORDER:42|
@@ -128,8 +129,8 @@ SKILL:Samurai Mount|OUTPUTORDER:43|
 SKILL:Sense Motive|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:45|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:46|
-SKILL:Sleight of Hand|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Survival|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Swim|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Untrained Charisma|OUTPUTORDER:53|
@@ -142,8 +143,8 @@ SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:36|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:48|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:49|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:58|
-SKILL:Use Magic Device|OUTPUTORDER:59|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:59|
+SKILL:Use Magic Device|OUTPUTORDER:58|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Orc|LANGUAGE:Read Lips
@@ -157,17 +158,20 @@ ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Elf Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
 USERPOOL:Elf Racial Subtype|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Alertness|TYPE:General.CloakedWolfBonusFeat|DESC:You often notice things that others might miss.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.DruidShamanLion.CloakedWolfBonusFeat|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:Combat|DESC:You can fight with a weapon in each of your hands. You can make one extra attack each round with the secondary weapon.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Rogue Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Rogue Archetype ~ Waylayer|TYPE:Archetype.RogueArchetype.RogueTrapfinding.RogueUncannyDodge.RogueImprovedUncannyDodge.RogueTalent12.RogueTalent20|DESC:A clever rogue knows the easiest battle to win is the one that's over before your foe knows it has begun. Some rogues thus specialize in setting up ambushes to catch their opponents off guard.
 USERPOOL:Rogue Archetype|POOLPOINTS:0.0
 ABILITY:Rogue Class Selection|TYPE:NORMAL|CATEGORY:Class|KEY:Rogue ~ Unchained Class|TYPE:Rogue Class Selection.AltRogueChoice
 USERPOOL:Rogue Class Selection|POOLPOINTS:0.0
+ABILITY:Skill Unlock Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill unlock ~ Perception|TYPE:SkillUnlock
+USERPOOL:Skill Unlock Choice|POOLPOINTS:0.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Deft Dodger|TYPE:Trait.BasicTrait.CombatTrait|DESC:Growing up in a rough neighborhood or a dangerous environment has honed your senses. You gain a +1 trait bonus on Reflex saves.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Suspicious|TYPE:Trait.BasicTrait.SocialTrait|DESC:You discovered at an early age that someone you trusted, perhaps an older sibling or a parent, had lied to you, and often, about something you had taken for granted, leaving you quick to question the claims of others. You gain a +1 trait bonus on Sense Motive checks, and Sense Motive is always a class skill for you.
 USERPOOL:Traits|POOLPOINTS:0.0
@@ -185,21 +189,35 @@ WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:S
 WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
 
 # Character Equipment
-MONEY:482.00
-EQUIPNAME:+1 Composite Shortbow|OUTPUTORDER:8|COST:2375.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Composite Shortbow (Base)|DATA:NAME=+1 Composite Shortbow$KEY=+1 Composite Shortbow (Base)$EQMOD=Material ~ Wood.Special Ability ~ +1 ~ Weapon]
+MONEY:1382.00
+EQUIPNAME:+1 Composite Shortbow|OUTPUTORDER:12|COST:2375.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Composite Shortbow (Base)|DATA:NAME=+1 Composite Shortbow$KEY=+1 Composite Shortbow (Base)$EQMOD=Material ~ Wood.Special Ability ~ +1 ~ Weapon]
 EQUIPNAME:+1 Dagger|OUTPUTORDER:1|COST:2302.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=+1 Dagger$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Weapon$SPROP=(+1 Dagger)]
-EQUIPNAME:Arrow|OUTPUTORDER:3|COST:0.05|WT:0.15|QUANTITY:36.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
-EQUIPNAME:Leather Armor|OUTPUTORDER:2|COST:10.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather Armor (Base)|DATA:NAME=Leather Armor$KEY=Leather$EQMOD=Material ~ Leather]
-EQUIPNAME:Potion of Invisibility|OUTPUTORDER:5|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Invisibility|DATA:NAME=Potion of Invisibility$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Invisibility&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
-EQUIPNAME:Rapier|OUTPUTORDER:7|COST:20.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier (Base)|DATA:NAME=Rapier$EQMOD=Material ~ Steel]
+EQUIPNAME:+2 Composite Shortbow|OUTPUTORDER:6|COST:8375.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Composite Shortbow (Base)|DATA:NAME=+2 Composite Shortbow$KEY=+2 Composite Shortbow (Base)$EQMOD=Material ~ Wood.Special Ability ~ +2 ~ Weapon]
+EQUIPNAME:Arrow|OUTPUTORDER:4|COST:0.05|WT:0.15|QUANTITY:19.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Ballista (Light)|OUTPUTORDER:0|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bottle of Fine Wine|OUTPUTORDER:9|COST:10|WT:1.5|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wine (Fine/Bottle)|DATA:NAME=Bottle of Fine Wine$KEY=Wine (Fine/Bottle)]
+EQUIPNAME:Drums|OUTPUTORDER:10|COST:5.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Drums (Base)|DATA:NAME=Drums$KEY=Drums (Base)$EQMOD=Material ~ Wood]
+EQUIPNAME:Leather Armor|OUTPUTORDER:3|COST:10.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather Armor (Base)|DATA:NAME=Leather Armor$KEY=Leather$EQMOD=Material ~ Leather]
+EQUIPNAME:Miner's Pick|OUTPUTORDER:0|COST:3|WT:10.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion (Vanish/Wizard/5th)|OUTPUTORDER:8|COST:250.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion|DATA:NAME=Potion (Vanish/Wizard/5th)$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Vanish&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;5&rbracket;]
+EQUIPNAME:Rapier|OUTPUTORDER:11|COST:20.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier (Base)|DATA:NAME=Rapier$EQMOD=Material ~ Steel]
+EQUIPNAME:Snowshoes|OUTPUTORDER:2|COST:5|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Tent|OUTPUTORDER:10|COST:10|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Tent (Small)|DATA:NAME=Tent$KEY=Tent (Small)]
+EQUIPNAME:Zircon|OUTPUTORDER:7|COST:50|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Armor|ID:0.1.01|VALUE:Leather Armor|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Secondary Hand|ID:0.1.08|VALUE:+1 Dagger|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.11|VALUE:Potion of Invisibility|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.16|VALUE:+1 Dagger|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.18|VALUE:Rapier|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.19|VALUE:+1 Composite Shortbow|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.20|VALUE:Arrow|QUANTITY:36.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.21|VALUE:Arrow|QUANTITY:19.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.22|VALUE:+2 Composite Shortbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.23|VALUE:Zircon|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.24|VALUE:Snowshoes|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.25|VALUE:Potion (Vanish/Wizard/5th)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.27|VALUE:Bottle of Fine Wine|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.29|VALUE:Drums|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.30|VALUE:Rapier|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.31|VALUE:+1 Composite Shortbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:+2 Composite Shortbow|ID:0.2|VALUE:+2 Composite Shortbow|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
