@@ -2,7 +2,7 @@ PCGVERSION:2.0
 
 # System Information
 CAMPAIGN:Pathfinder RPG for Players|CAMPAIGN:Dirty Tactics Toolbox|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Pathfinder Unchained
-VERSION:6.08.00 RC6
+VERSION:6.08.00 RC7
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
@@ -67,13 +67,12 @@ CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:4|PRESTAT:DEX=2|PRESTAT:INT=-2|PRESTAT:CON
 CLASSABILITIESLEVEL:Rogue=4|HITPOINTS:8|PRESTAT:DEX=1|SKILLSGAINED:12|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:12497
+EXPERIENCE:14497
 EXPERIENCETABLE:Medium
 
 # Character Templates
 TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
 TEMPLATESAPPLIED:[NAME:REACH_5]
-TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Giant]
 TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Celestial]
 TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Draconic]
 TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Gnoll]
@@ -81,6 +80,7 @@ TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Gnome]
 TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Goblin]
 TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Orc]
 TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Sylvan]
+TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Giant]
 
 # Character Region
 REGION:None
@@ -122,7 +122,7 @@ SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:34|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:35|
 SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:37|
-SKILL:Linguistics|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Read Lips
+SKILL:Linguistics|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Read Lips
 SKILL:Perception|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Dance)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:42|
@@ -132,7 +132,7 @@ SKILL:Samurai Mount|OUTPUTORDER:46|
 SKILL:Sense Motive|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:48|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:49|
-SKILL:Sleight of Hand|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Stealth|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Survival|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Swim|OUTPUTORDER:55|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -143,11 +143,11 @@ SKILL:Untrained Strength|OUTPUTORDER:59|
 SKILL:Untrained Wisdom|OUTPUTORDER:60|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:21|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:27|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:39|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:38|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:51|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:52|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:62|
-SKILL:Use Magic Device|OUTPUTORDER:61|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:61|
+SKILL:Use Magic Device|OUTPUTORDER:62|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Gnome|LANGUAGE:Goblin|LANGUAGE:Orc|LANGUAGE:Read Lips|LANGUAGE:Sylvan
@@ -185,7 +185,7 @@ ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Kin Bond|TYPE:Tr
 USERPOOL:Traits|POOLPOINTS:0.0
 ABILITY:Unchained Rogue Finesse Damage Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue ~ Finesse Training Choice|APPLIEDTO:Dagger|TYPE:Unchained Rogue Finesse Damage Choice.SpecialQuality.Extraordinary|DESC:Dexterity to Damage with %1&pipe;%LIST
 USERPOOL:Unchained Rogue Finesse Damage Choice|POOLPOINTS:0.0
-ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Combat Trick|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:You gain a bonus combat feat.
+ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Combat Trick|APPLIEDTO:|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:You gain a bonus combat feat.
 ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Slow Reactions|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:Opponents damaged by your sneak attack can't make attacks of opportunity for 1 round.
 USERPOOL:Unchained Rogue Talent|POOLPOINTS:0.0
 
