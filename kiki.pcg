@@ -60,14 +60,15 @@ ALIGN:CN
 RACE:Elf
 
 # Character Class(es)
-CLASS:Rogue|LEVEL:4|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Rogue|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:8|SKILLSGAINED:12|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=2|HITPOINTS:8|SKILLSGAINED:12|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:4|PRESTAT:DEX=2|PRESTAT:INT=-2|PRESTAT:CON=1|PRESTAT:WIS=-1|SKILLSGAINED:12|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=4|HITPOINTS:8|PRESTAT:DEX=1|SKILLSGAINED:12|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=5|HITPOINTS:7|SKILLSGAINED:12|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:12497
+EXPERIENCE:17027
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -86,31 +87,31 @@ TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Sylvan]
 REGION:None
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|
 SKILL:Artistry|OUTPUTORDER:4|
-SKILL:Bluff|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
-SKILL:Climb|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:5|
 SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:31|
 SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:43|
 SKILL:Craft (Locks)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Craft (Traps)|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Craft (Untrained)|OUTPUTORDER:14|
-SKILL:Diplomacy|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:16|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:17|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:18|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:19|
-SKILL:Disable Device|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Disable Device|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:23|
-SKILL:Escape Artist|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Escape Artist|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Fly|OUTPUTORDER:25|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:26|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:28|
@@ -122,9 +123,9 @@ SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:34|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:35|
 SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:37|
-SKILL:Linguistics|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Read Lips
-SKILL:Perception|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (Dance)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Linguistics|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Read Lips
+SKILL:Perception|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Dance)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:42|
 SKILL:Profession (Untrained)|OUTPUTORDER:44|
 SKILL:Ride|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
@@ -132,9 +133,9 @@ SKILL:Samurai Mount|OUTPUTORDER:46|
 SKILL:Sense Motive|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:48|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:49|
-SKILL:Sleight of Hand|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Survival|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Sleight of Hand|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Swim|OUTPUTORDER:55|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Untrained Charisma|OUTPUTORDER:56|
 SKILL:Untrained Dexterity|OUTPUTORDER:57|
@@ -143,8 +144,8 @@ SKILL:Untrained Strength|OUTPUTORDER:59|
 SKILL:Untrained Wisdom|OUTPUTORDER:60|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:21|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:27|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:39|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:38|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:51|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:52|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:62|
 SKILL:Use Magic Device|OUTPUTORDER:61|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -169,16 +170,19 @@ USERPOOL:Drawbacks|POOLPOINTS:0.0
 ABILITY:Elf Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
 USERPOOL:Elf Racial Subtype|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.DruidShamanLion.CloakedWolfBonusFeat|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mobility|TYPE:Combat.DruidShamanWolf.CloakedWolfBonusFeat|DESC:You can easily move through a dangerous melee.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:Combat|DESC:You can fight with a weapon in each of your hands. You can make one extra attack each round with the secondary weapon.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Rogue Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Rogue Archetype ~ Knife Master|TYPE:Archetype.RogueArchetype.RogueTrapfinding.RogueTrapSense|DESC:The knife master is a trained killer who specializes in close-up combat and the wave and weave of knife fighting. In her hands, daggers and other similar light blades become truly deadly instruments.
 USERPOOL:Rogue Archetype|POOLPOINTS:0.0
 ABILITY:Rogue Class Selection|TYPE:NORMAL|CATEGORY:Class|KEY:Rogue ~ Unchained Class|TYPE:Rogue Class Selection.AltRogueChoice
 USERPOOL:Rogue Class Selection|POOLPOINTS:0.0
+ABILITY:Skill Unlock Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skill unlock ~ Perform|TYPE:SkillUnlock
+USERPOOL:Skill Unlock Choice|POOLPOINTS:0.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Child of the Streets|TYPE:Trait.BasicTrait.SocialTrait|DESC:You grew up on the streets of a large city, and as a result you have developed a knack for picking pockets and hiding small objects on your person. You gain a +1 trait bonus on Sleight of Hand checks, and Sleight of Hand is always a class skill for you.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Dirty Fighter|TYPE:Trait.BasicTrait.CombatTrait|DESC:You wouldn't have lived to make it out of childhood without the aid of a sibling, friend, or companion on whom you could always count to distract your enemies long enough to do a little bit more damage than normal. When you hit a foe you are flanking, you deal an additional 1 point of damage (this damage is added to your base damage, and is multiplied on a critical hit). This additional damage is a trait bonus.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Kin Bond|TYPE:Trait.BasicTrait.MagicTrait|DESC:The bond between you and a close sibling is nearly mystical. Choose a single sibling with whom to share this bond. Once per day when you fail a saving throw while your sibling is within 30 feet, you may reroll that saving throw using your sibling's saving throw modifier. If you and the sibling are twins or otherwise part of a multiple birth, you gain a +2 trait bonus on the rerolled saving throw. Your sibling must be willing to grant you the reroll. If you fail the saving throw, you and your sibling are dazed for 1 round.
@@ -197,61 +201,131 @@ WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:S
 WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
 
 # Character Equipment
-MONEY:1494.00
+MONEY:1574.00
+EQUIPNAME:+1 Composite Shortbow|OUTPUTORDER:5|COST:2375.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Composite Shortbow (Base)|DATA:NAME=+1 Composite Shortbow$KEY=+1 Composite Shortbow (Base)$EQMOD=Special Ability ~ +1 ~ Weapon]
 EQUIPNAME:+1 Dagger|OUTPUTORDER:2|COST:2302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=+1 Dagger$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Weapon$SPROP=(+1 Dagger)]
-EQUIPNAME:+1 Shortbow|OUTPUTORDER:26|COST:2330.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shortbow (Base)|DATA:NAME=+1 Shortbow$KEY=+1 Shortbow (Base)$EQMOD=Material ~ Wood.Special Ability ~ +1 ~ Weapon]
-EQUIPNAME:Acid|OUTPUTORDER:8|COST:10|WT:1.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Acid (Flask)|DATA:NAME=Acid$KEY=Acid (Flask)]
-EQUIPNAME:Alchemist's Fire|OUTPUTORDER:9|COST:20|WT:1.0|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Alchemist's Fire (Flask)|DATA:NAME=Alchemist's Fire$KEY=Alchemist's Fire (Flask)]
-EQUIPNAME:Arrow|OUTPUTORDER:25|COST:0.05|WT:0.15|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
-EQUIPNAME:Backpack|OUTPUTORDER:16|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Bag of Holding (Type I)|OUTPUTORDER:5|COST:2500|WT:15.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Crossbow, Repeating Light|OUTPUTORDER:24|COST:250.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Repeating Light Crossbow (Base)|DATA:NAME=Crossbow, Repeating Light$KEY=Crossbow (Repeating Light)$EQMOD=Material ~ Wood]
-EQUIPNAME:Dagger|OUTPUTORDER:1|COST:2.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger$EQMOD=STEEL]
+EQUIPNAME:+1 Shortbow|OUTPUTORDER:29|COST:2330.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shortbow (Base)|DATA:NAME=+1 Shortbow$KEY=+1 Shortbow (Base)$EQMOD=Material ~ Wood.Special Ability ~ +1 ~ Weapon]
+EQUIPNAME:Acid|OUTPUTORDER:10|COST:10|WT:1.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Acid (Flask)|DATA:NAME=Acid$KEY=Acid (Flask)]
+EQUIPNAME:Alchemist's Fire|OUTPUTORDER:11|COST:20|WT:1.0|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Alchemist's Fire (Flask)|DATA:NAME=Alchemist's Fire$KEY=Alchemist's Fire (Flask)]
+EQUIPNAME:Amber|OUTPUTORDER:36|COST:100|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Aquamarine|OUTPUTORDER:37|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Arrow|OUTPUTORDER:7|COST:0.05|WT:0.15|QUANTITY:8.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Backpack|OUTPUTORDER:43|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bag of Holding (Type I)|OUTPUTORDER:8|COST:2500|WT:15.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Brass Oil Lamp|OUTPUTORDER:39|COST:15.0|WT:1.0|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Lamp (Common)|DATA:NAME=Brass Oil Lamp$COSTMOD=14.9]
+EQUIPNAME:Crossbow, Repeating Light|OUTPUTORDER:22|COST:250.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Repeating Light Crossbow (Base)|DATA:NAME=Crossbow, Repeating Light$KEY=Crossbow (Repeating Light)$EQMOD=Material ~ Wood]
+EQUIPNAME:Dagger|OUTPUTORDER:1|COST:2.0|WT:1.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger$EQMOD=STEEL]
+EQUIPNAME:Deep Green Spinel|OUTPUTORDER:35|COST:100|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spinel (Deep Green)|DATA:KEY=Spinel (Deep Green)]
+EQUIPNAME:Gold and Pearl Holy Symbol of Sarenrae|OUTPUTORDER:34|COST:100.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol|DATA:NAME=Gold and Pearl Holy Symbol of Sarenrae$EQMOD=Holy Symbol (Gold)$SPROP=(Gold Holy Symbol)]
 EQUIPNAME:Leather|OUTPUTORDER:4|COST:10.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather Armor (Base)|DATA:NAME=Leather$EQMOD=LEATHER]
-EQUIPNAME:Longbow|OUTPUTORDER:23|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Base)|DATA:NAME=Longbow$EQMOD=WOOD]
+EQUIPNAME:Leather Armor|OUTPUTORDER:27|COST:10.0|WT:15.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather Armor (Base)|DATA:NAME=Leather Armor$KEY=Leather$EQMOD=Material ~ Leather]
+EQUIPNAME:Longbow|OUTPUTORDER:30|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Base)|DATA:NAME=Longbow$EQMOD=WOOD]
+EQUIPNAME:Masterwork Dwarven Urgrosh|OUTPUTORDER:42|COST:650.0|WT:12.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dwarven Urgrosh (Base)|DATA:NAME=Masterwork Dwarven Urgrosh$KEY=Masterwork Dwarven Urgrosh (Base)$EQMOD=Special Quality ~ Double.Special Quality ~ Masterwork ~ Weapon$ALTEQMOD=Special Quality ~ Brace.Special Quality ~ Double.Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Masterwork Half-Plate|OUTPUTORDER:40|COST:750.0|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Half-Plate (Base)|DATA:NAME=Masterwork Half-Plate$KEY=Masterwork Half-Plate (Base)$EQMOD=Special Quality ~ Masterwork ~ Armor]
+EQUIPNAME:Masterwork Longsword (Small)|OUTPUTORDER:41|COST:315.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword (Base)|DATA:NAME=Masterwork Longsword (Small)$KEY=Masterwork Longsword (Base/Small)$SIZE=S$EQMOD=Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Masterwork Rapier|OUTPUTORDER:25|COST:320.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier (Base)|DATA:NAME=Masterwork Rapier$KEY=Masterwork Rapier (Base)$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Masterwork Short Sword|OUTPUTORDER:23|COST:310.0|WT:2.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Short Sword (Base)|DATA:NAME=Masterwork Short Sword$KEY=Masterwork Short Sword (Base)$EQMOD=Special Quality ~ Masterwork ~ Weapon]
 EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:3|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$KEY=Outfit (Explorer_s)$COSTMOD=-10]
-EQUIPNAME:Poison, Large Scorpion Venom|OUTPUTORDER:14|COST:200|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Poison (Large Scorpion Venom)|DATA:NAME=Poison, Large Scorpion Venom$KEY=Poison (Large Scorpion Venom)]
-EQUIPNAME:Potion of Bear's Endurance|OUTPUTORDER:20|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Bear's Endurance|DATA:NAME=Potion of Bear's Endurance$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Bear's Endurance&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
-EQUIPNAME:Potion of Cat's Grace|OUTPUTORDER:19|COST:300.0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cat's Grace|DATA:NAME=Potion of Cat's Grace$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cat's Grace&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
+EQUIPNAME:Padded Armor|OUTPUTORDER:28|COST:5|WT:10.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Padded Armor (Base)|DATA:NAME=Padded Armor$KEY=Padded Armor (Base)]
+EQUIPNAME:Poison, Large Scorpion Venom|OUTPUTORDER:15|COST:200|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Poison (Large Scorpion Venom)|DATA:NAME=Poison, Large Scorpion Venom$KEY=Poison (Large Scorpion Venom)]
+EQUIPNAME:Potion of Bear's Endurance|OUTPUTORDER:19|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Bear's Endurance|DATA:NAME=Potion of Bear's Endurance$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Bear's Endurance&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
+EQUIPNAME:Potion of Cat's Grace|OUTPUTORDER:18|COST:300.0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cat's Grace|DATA:NAME=Potion of Cat's Grace$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cat's Grace&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
 EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:17|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Light Wounds|DATA:NAME=Potion of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:18|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Moderate Wounds|DATA:NAME=Potion of Cure Moderate Wounds$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Moderate Wounds&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
-EQUIPNAME:Potion of Invisibility|OUTPUTORDER:15|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Invisibility|DATA:NAME=Potion of Invisibility$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Invisibility&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
-EQUIPNAME:Rapier|OUTPUTORDER:22|COST:20.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier (Base)|DATA:NAME=Rapier$EQMOD=STEEL]
-EQUIPNAME:Ring (Hold Person)|OUTPUTORDER:27|COST:1200.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ring|DATA:NAME=Ring (Hold Person)$EQMOD=SPL_CON_STANDARD&pipe;SPELLNAME&lbracket;Hold Person&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;3&rbracket; $COSTMOD=-10800.0]
-EQUIPNAME:Rope (50 ft.)|OUTPUTORDER:6|COST:1|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rope (Hemp/50 ft)|DATA:NAME=Rope (50 ft.)$KEY=Rope (Hemp/50 ft)]
-EQUIPNAME:Sap|OUTPUTORDER:7|COST:1.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sap (Base)|DATA:NAME=Sap$EQMOD=NONLETHAL]
-EQUIPNAME:Scroll of Command|OUTPUTORDER:10|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Command|DATA:NAME=Scroll of Command$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Command&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Scroll of Mage Armor|OUTPUTORDER:12|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Mage Armor|DATA:NAME=Scroll of Mage Armor$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Mage Armor&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Scroll of Magic Missile|OUTPUTORDER:11|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Magic Missile|DATA:NAME=Scroll of Magic Missile$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Magic Missile&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Thick Leather (per sq yd)|OUTPUTORDER:21|COST:3|WT:0.0|QUANTITY:5.0|NOTE:
+EQUIPNAME:Potion of Invisibility|OUTPUTORDER:16|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Invisibility|DATA:NAME=Potion of Invisibility$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Invisibility&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
+EQUIPNAME:Rapier|OUTPUTORDER:21|COST:20.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier (Base)|DATA:NAME=Rapier$EQMOD=STEEL]
+EQUIPNAME:Ring (Hold Person)|OUTPUTORDER:44|COST:1200.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ring|DATA:NAME=Ring (Hold Person)$EQMOD=SPL_CON_STANDARD&pipe;SPELLNAME&lbracket;Hold Person&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;3&rbracket; $COSTMOD=-10800.0]
+EQUIPNAME:Rope (50 ft.)|OUTPUTORDER:9|COST:1|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rope (Hemp/50 ft)|DATA:NAME=Rope (50 ft.)$KEY=Rope (Hemp/50 ft)]
+EQUIPNAME:Rose Quartz|OUTPUTORDER:33|COST:50|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Quartz (Rose)|DATA:KEY=Quartz (Rose)]
+EQUIPNAME:Ruby Pendant|OUTPUTORDER:38|COST:500.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Garnet (Violet)|DATA:NAME=Ruby Pendant$EQMOD=ADDTYPE&pipe;Neck$SPROP=(Violet Garnet (Neck))]
+EQUIPNAME:Sap|OUTPUTORDER:6|COST:1.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sap (Base)|DATA:NAME=Sap$EQMOD=NONLETHAL]
+EQUIPNAME:Scroll of Command|OUTPUTORDER:12|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Command|DATA:NAME=Scroll of Command$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Command&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Scroll of Mage Armor|OUTPUTORDER:14|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Mage Armor|DATA:NAME=Scroll of Mage Armor$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Mage Armor&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Scroll of Magic Missile|OUTPUTORDER:13|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Magic Missile|DATA:NAME=Scroll of Magic Missile$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Magic Missile&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Smoky Quartz|OUTPUTORDER:32|COST:50|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Quartz (Smoky)|DATA:KEY=Quartz (Smoky)]
+EQUIPNAME:Star Rose Quartz|OUTPUTORDER:31|COST:50|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Quartz (Star Rose)|DATA:KEY=Quartz (Star Rose)]
+EQUIPNAME:Thick Leather (per sq yd)|OUTPUTORDER:20|COST:3|WT:0.0|QUANTITY:5.0|NOTE:
+EQUIPNAME:Thieves' Tools (Masterwork)|OUTPUTORDER:24|COST:100|WT:2.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Whip|OUTPUTORDER:26|COST:1.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Whip (Base)|DATA:NAME=Whip$EQMOD=Special Quality ~ Disarm.Special Quality ~ Nonlethal.Special Quality ~ Reach.Special Quality ~ Trip.Material ~ Leather]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.02|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Not Carried|ID:0.1.14|VALUE:Ring (Hold Person)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Armor|ID:0.1.15|VALUE:Leather|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Secondary Hand|ID:0.1.17|VALUE:Dagger|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.18|VALUE:+1 Dagger|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.20|VALUE:Bag of Holding (Type I)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.01|VALUE:Rope (50 ft.)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.03|VALUE:Sap|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.04|VALUE:Acid|QUANTITY:3.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.05|VALUE:Alchemist's Fire|QUANTITY:4.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.06|VALUE:Scroll of Command|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.07|VALUE:Scroll of Magic Missile|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.08|VALUE:Scroll of Mage Armor|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.10|VALUE:Poison, Large Scorpion Venom|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.11|VALUE:Potion of Invisibility|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.12|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.13|VALUE:Potion of Cure Light Wounds|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.14|VALUE:Potion of Cure Moderate Wounds|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.15|VALUE:Potion of Cat's Grace|QUANTITY:2.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.16|VALUE:Potion of Bear's Endurance|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.17|VALUE:Thick Leather (per sq yd)|QUANTITY:5.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.18|VALUE:Rapier|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.19|VALUE:Longbow|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Bag of Holding (Type I)|ID:0.1.20.20|VALUE:Crossbow, Repeating Light|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.21|VALUE:Arrow|QUANTITY:10.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.22|VALUE:+1 Shortbow|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Longbow|ID:0.2|VALUE:Longbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.20|VALUE:+1 Composite Shortbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.21|VALUE:Dagger|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.22|VALUE:Sap|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.23|VALUE:Arrow|QUANTITY:8.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.26|VALUE:Bag of Holding (Type I)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.04|VALUE:Rope (50 ft.)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.07|VALUE:Acid|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.08|VALUE:Alchemist's Fire|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.09|VALUE:Scroll of Command|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.10|VALUE:Scroll of Magic Missile|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.11|VALUE:Scroll of Mage Armor|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.13|VALUE:Poison, Large Scorpion Venom|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.14|VALUE:Potion of Invisibility|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.16|VALUE:Potion of Cure Light Wounds|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.18|VALUE:Potion of Cat's Grace|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.19|VALUE:Potion of Bear's Endurance|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.20|VALUE:Thick Leather (per sq yd)|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.21|VALUE:Rapier|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.23|VALUE:Crossbow, Repeating Light|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.24|VALUE:Masterwork Short Sword|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.25|VALUE:Thieves' Tools (Masterwork)|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.26|VALUE:Masterwork Rapier|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.27|VALUE:Whip|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.28|VALUE:Leather Armor|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.29|VALUE:Padded Armor|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.30|VALUE:+1 Shortbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.31|VALUE:Longbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.32|VALUE:Star Rose Quartz|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.33|VALUE:Smoky Quartz|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.34|VALUE:Rose Quartz|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.35|VALUE:Gold and Pearl Holy Symbol of Sarenrae|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.36|VALUE:Deep Green Spinel|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.37|VALUE:Amber|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.38|VALUE:Aquamarine|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.39|VALUE:Ruby Pendant|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.40|VALUE:Brass Oil Lamp|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.41|VALUE:Masterwork Half-Plate|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.42|VALUE:Masterwork Longsword (Small)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.1.26.43|VALUE:Masterwork Dwarven Urgrosh|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.27|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Range|ID:0.3|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.3.01|VALUE:+1 Composite Shortbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:+1 Composite Shortbow|ID:0.3.01.01|VALUE:Arrow|QUANTITY:8.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.3.02|VALUE:Dagger|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.3.03|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.3.04|VALUE:Leather|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.3.05|VALUE:+1 Dagger|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.3.06|VALUE:Thick Leather (per sq yd)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.3.07|VALUE:Bag of Holding (Type I)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.01|VALUE:Rapier|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.02|VALUE:Rope (50 ft.)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.04|VALUE:Sap|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.05|VALUE:Scroll of Command|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.06|VALUE:+1 Shortbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.07|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.08|VALUE:Potion of Cat's Grace|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.09|VALUE:Ring (Hold Person)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.10|VALUE:Potion of Bear's Endurance|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.11|VALUE:Acid|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.12|VALUE:Thick Leather (per sq yd)|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.13|VALUE:Longbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.14|VALUE:Crossbow, Repeating Light|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.15|VALUE:Potion of Invisibility|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.16|VALUE:Poison, Large Scorpion Venom|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.17|VALUE:Alchemist's Fire|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.18|VALUE:Scroll of Magic Missile|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.19|VALUE:Potion of Cure Light Wounds|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.20|VALUE:Scroll of Mage Armor|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.21|VALUE:Masterwork Short Sword|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.22|VALUE:Thieves' Tools (Masterwork)|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.23|VALUE:Masterwork Rapier|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.24|VALUE:Whip|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.25|VALUE:Leather Armor|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Bag of Holding (Type I)|ID:0.3.07.26|VALUE:Padded Armor|QUANTITY:2.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
