@@ -68,7 +68,7 @@ CLASSABILITIESLEVEL:Rogue=4|HITPOINTS:8|PRESTAT:DEX=1|SKILLSGAINED:12|SKILLSREMA
 CLASSABILITIESLEVEL:Rogue=5|HITPOINTS:7|SKILLSGAINED:12|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:17027
+EXPERIENCE:22227
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -123,7 +123,7 @@ SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:34|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:35|
 SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:37|
-SKILL:Linguistics|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Read Lips
+SKILL:Linguistics|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Read Lips
 SKILL:Perception|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Dance)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:42|
@@ -133,7 +133,7 @@ SKILL:Samurai Mount|OUTPUTORDER:46|
 SKILL:Sense Motive|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:48|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:49|
-SKILL:Sleight of Hand|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Stealth|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Survival|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Swim|OUTPUTORDER:55|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -144,8 +144,8 @@ SKILL:Untrained Strength|OUTPUTORDER:59|
 SKILL:Untrained Wisdom|OUTPUTORDER:60|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:21|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:27|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:38|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:51|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:39|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:52|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:62|
 SKILL:Use Magic Device|OUTPUTORDER:61|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -201,7 +201,7 @@ WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:S
 WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
 
 # Character Equipment
-MONEY:1574.00
+MONEY:5574.00
 EQUIPNAME:+1 Composite Shortbow|OUTPUTORDER:5|COST:2375.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Composite Shortbow (Base)|DATA:NAME=+1 Composite Shortbow$KEY=+1 Composite Shortbow (Base)$EQMOD=Special Ability ~ +1 ~ Weapon]
 EQUIPNAME:+1 Dagger|OUTPUTORDER:2|COST:2302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=+1 Dagger$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Weapon$SPROP=(+1 Dagger)]
 EQUIPNAME:+1 Shortbow|OUTPUTORDER:29|COST:2330.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shortbow (Base)|DATA:NAME=+1 Shortbow$KEY=+1 Shortbow (Base)$EQMOD=Material ~ Wood.Special Ability ~ +1 ~ Weapon]
@@ -215,8 +215,9 @@ EQUIPNAME:Bag of Holding (Type I)|OUTPUTORDER:8|COST:2500|WT:15.0|QUANTITY:1.0|N
 EQUIPNAME:Brass Oil Lamp|OUTPUTORDER:39|COST:15.0|WT:1.0|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Lamp (Common)|DATA:NAME=Brass Oil Lamp$COSTMOD=14.9]
 EQUIPNAME:Crossbow, Repeating Light|OUTPUTORDER:22|COST:250.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Repeating Light Crossbow (Base)|DATA:NAME=Crossbow, Repeating Light$KEY=Crossbow (Repeating Light)$EQMOD=Material ~ Wood]
 EQUIPNAME:Dagger|OUTPUTORDER:1|COST:2.0|WT:1.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger$EQMOD=STEEL]
-EQUIPNAME:Deep Green Spinel|OUTPUTORDER:35|COST:100|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spinel (Deep Green)|DATA:KEY=Spinel (Deep Green)]
+EQUIPNAME:Deep Green Spinel|OUTPUTORDER:35|COST:100|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spinel (Deep Green)|DATA:NAME=Deep Green Spinel$KEY=Spinel (Deep Green)]
 EQUIPNAME:Gold and Pearl Holy Symbol of Sarenrae|OUTPUTORDER:34|COST:100.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol|DATA:NAME=Gold and Pearl Holy Symbol of Sarenrae$EQMOD=Holy Symbol (Gold)$SPROP=(Gold Holy Symbol)]
+EQUIPNAME:Gold Ring|OUTPUTORDER:0|COST:30|WT:0.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ring|DATA:NAME=Gold Ring$SPROP=(Ring)$COSTMOD=30]
 EQUIPNAME:Leather|OUTPUTORDER:4|COST:10.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather Armor (Base)|DATA:NAME=Leather$EQMOD=LEATHER]
 EQUIPNAME:Leather Armor|OUTPUTORDER:27|COST:10.0|WT:15.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather Armor (Base)|DATA:NAME=Leather Armor$KEY=Leather$EQMOD=Material ~ Leather]
 EQUIPNAME:Longbow|OUTPUTORDER:30|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Base)|DATA:NAME=Longbow$EQMOD=WOOD]
@@ -225,26 +226,30 @@ EQUIPNAME:Masterwork Half-Plate|OUTPUTORDER:40|COST:750.0|WT:50.0|QUANTITY:1.0|N
 EQUIPNAME:Masterwork Longsword (Small)|OUTPUTORDER:41|COST:315.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword (Base)|DATA:NAME=Masterwork Longsword (Small)$KEY=Masterwork Longsword (Base/Small)$SIZE=S$EQMOD=Special Quality ~ Masterwork ~ Weapon]
 EQUIPNAME:Masterwork Rapier|OUTPUTORDER:25|COST:320.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier (Base)|DATA:NAME=Masterwork Rapier$KEY=Masterwork Rapier (Base)$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
 EQUIPNAME:Masterwork Short Sword|OUTPUTORDER:23|COST:310.0|WT:2.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Short Sword (Base)|DATA:NAME=Masterwork Short Sword$KEY=Masterwork Short Sword (Base)$EQMOD=Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Masterwork Warhammer (Large)|OUTPUTORDER:0|COST:324.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Masterwork Warhammer (Large)$KEY=Masterwork Warhammer (Base/Large)$SIZE=L$EQMOD=Special Quality ~ Masterwork ~ Weapon]
 EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:3|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$KEY=Outfit (Explorer_s)$COSTMOD=-10]
 EQUIPNAME:Padded Armor|OUTPUTORDER:28|COST:5|WT:10.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Padded Armor (Base)|DATA:NAME=Padded Armor$KEY=Padded Armor (Base)]
 EQUIPNAME:Poison, Large Scorpion Venom|OUTPUTORDER:15|COST:200|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Poison (Large Scorpion Venom)|DATA:NAME=Poison, Large Scorpion Venom$KEY=Poison (Large Scorpion Venom)]
 EQUIPNAME:Potion of Bear's Endurance|OUTPUTORDER:19|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Bear's Endurance|DATA:NAME=Potion of Bear's Endurance$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Bear's Endurance&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
 EQUIPNAME:Potion of Cat's Grace|OUTPUTORDER:18|COST:300.0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cat's Grace|DATA:NAME=Potion of Cat's Grace$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cat's Grace&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
 EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:17|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Light Wounds|DATA:NAME=Potion of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Potion of Cure Serious Wounds|OUTPUTORDER:0|COST:750.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Serious Wounds|DATA:NAME=Potion of Cure Serious Wounds$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Serious Wounds&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;]
 EQUIPNAME:Potion of Invisibility|OUTPUTORDER:16|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Invisibility|DATA:NAME=Potion of Invisibility$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Invisibility&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
 EQUIPNAME:Rapier|OUTPUTORDER:21|COST:20.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier (Base)|DATA:NAME=Rapier$EQMOD=STEEL]
 EQUIPNAME:Ring (Hold Person)|OUTPUTORDER:44|COST:1200.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ring|DATA:NAME=Ring (Hold Person)$EQMOD=SPL_CON_STANDARD&pipe;SPELLNAME&lbracket;Hold Person&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;3&rbracket; $COSTMOD=-10800.0]
 EQUIPNAME:Rope (50 ft.)|OUTPUTORDER:9|COST:1|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rope (Hemp/50 ft)|DATA:NAME=Rope (50 ft.)$KEY=Rope (Hemp/50 ft)]
-EQUIPNAME:Rose Quartz|OUTPUTORDER:33|COST:50|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Quartz (Rose)|DATA:KEY=Quartz (Rose)]
+EQUIPNAME:Rose Quartz|OUTPUTORDER:33|COST:50|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Quartz (Rose)|DATA:NAME=Rose Quartz$KEY=Quartz (Rose)]
 EQUIPNAME:Ruby Pendant|OUTPUTORDER:38|COST:500.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Garnet (Violet)|DATA:NAME=Ruby Pendant$EQMOD=ADDTYPE&pipe;Neck$SPROP=(Violet Garnet (Neck))]
 EQUIPNAME:Sap|OUTPUTORDER:6|COST:1.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sap (Base)|DATA:NAME=Sap$EQMOD=NONLETHAL]
 EQUIPNAME:Scroll of Command|OUTPUTORDER:12|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Command|DATA:NAME=Scroll of Command$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Command&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
 EQUIPNAME:Scroll of Mage Armor|OUTPUTORDER:14|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Mage Armor|DATA:NAME=Scroll of Mage Armor$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Mage Armor&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
 EQUIPNAME:Scroll of Magic Missile|OUTPUTORDER:13|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Magic Missile|DATA:NAME=Scroll of Magic Missile$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Magic Missile&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Smoky Quartz|OUTPUTORDER:32|COST:50|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Quartz (Smoky)|DATA:KEY=Quartz (Smoky)]
-EQUIPNAME:Star Rose Quartz|OUTPUTORDER:31|COST:50|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Quartz (Star Rose)|DATA:KEY=Quartz (Star Rose)]
+EQUIPNAME:Smoky Quartz|OUTPUTORDER:32|COST:50|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Quartz (Smoky)|DATA:NAME=Smoky Quartz$KEY=Quartz (Smoky)]
+EQUIPNAME:Star Rose Quartz|OUTPUTORDER:31|COST:50|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Quartz (Star Rose)|DATA:NAME=Star Rose Quartz$KEY=Quartz (Star Rose)]
 EQUIPNAME:Thick Leather (per sq yd)|OUTPUTORDER:20|COST:3|WT:0.0|QUANTITY:5.0|NOTE:
 EQUIPNAME:Thieves' Tools (Masterwork)|OUTPUTORDER:24|COST:100|WT:2.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Torque of Health (+2)|OUTPUTORDER:0|COST:4000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Amulet|DATA:NAME=Torque of Health (+2)$EQMOD=Special Ability ~ Bonus Ability / Enhancement&pipe;CON=+2$SPROP=(Amulet (CON +2))]
+EQUIPNAME:Vest of Endure Elements|OUTPUTORDER:0|COST:500.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Vest|DATA:NAME=Vest of Endure Elements$EQMOD=Special Ability ~ Spell Effect / Use Activated&pipe;SPELLNAME&lbracket;Endure Elements&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; $SPROP=(Vest (Endure Elements/Wizard/1st));This long sheepskin vest grants the benefits of an endure elements spell when worn. You must wear a vest of endure elements for 24 hours before it begins to take effect.;$COSTMOD=-3500.0]
 EQUIPNAME:Whip|OUTPUTORDER:26|COST:1.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Whip (Base)|DATA:NAME=Whip$EQMOD=Special Quality ~ Disarm.Special Quality ~ Nonlethal.Special Quality ~ Reach.Special Quality ~ Trip.Material ~ Leather]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.02|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
