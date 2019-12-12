@@ -59,15 +59,16 @@ ALIGN:CN
 RACE:Elf
 
 # Character Class(es)
-CLASS:Rogue|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Rogue|LEVEL:6|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:8|SKILLSGAINED:9|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=2|HITPOINTS:1|SKILLSGAINED:9|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:8|SKILLSGAINED:9|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=4|HITPOINTS:4|PRESTAT:CON=1|PRESTAT:INT=-2|PRESTAT:STR=2|SKILLSGAINED:9|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Rogue=5|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=6|HITPOINTS:7|SKILLSGAINED:9|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:19395
+EXPERIENCE:24595
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -90,7 +91,7 @@ SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSK
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Artistry|OUTPUTORDER:4|
-SKILL:Bluff|OUTPUTORDER:6|
+SKILL:Bluff|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
@@ -105,8 +106,8 @@ SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
-SKILL:Disable Device|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Disguise|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Disable Device|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Rogue|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
 SKILL:Escape Artist|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Fly|OUTPUTORDER:23|
@@ -121,7 +122,7 @@ SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:33|
 SKILL:Knowledge (Local)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:35|
 SKILL:Linguistics|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Read Lips
-SKILL:Perception|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Rogue|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:39|
 SKILL:Profession (Untrained)|OUTPUTORDER:41|
 SKILL:Ride|OUTPUTORDER:42|
@@ -129,8 +130,8 @@ SKILL:Samurai Mount|OUTPUTORDER:43|
 SKILL:Sense Motive|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:45|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:46|
-SKILL:Sleight of Hand|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Rogue|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Rogue|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Survival|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Swim|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Untrained Charisma|OUTPUTORDER:53|
@@ -138,10 +139,10 @@ SKILL:Untrained Dexterity|OUTPUTORDER:54|
 SKILL:Untrained Intelligence|OUTPUTORDER:55|
 SKILL:Untrained Strength|OUTPUTORDER:56|
 SKILL:Untrained Wisdom|OUTPUTORDER:57|
-SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:36|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:48|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:47|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:49|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:59|
 SKILL:Use Magic Device|OUTPUTORDER:58|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -164,7 +165,7 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:Combat|DESC:
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Rogue Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Rogue Archetype ~ Waylayer|TYPE:Archetype.RogueArchetype.RogueTrapfinding.RogueUncannyDodge.RogueImprovedUncannyDodge.RogueTalent12.RogueTalent20|DESC:A clever rogue knows the easiest battle to win is the one that's over before your foe knows it has begun. Some rogues thus specialize in setting up ambushes to catch their opponents off guard.
 USERPOOL:Rogue Archetype|POOLPOINTS:0.0
@@ -177,6 +178,7 @@ ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Suspicious|TYPE:
 USERPOOL:Traits|POOLPOINTS:0.0
 ABILITY:Unchained Rogue Finesse Damage Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue ~ Finesse Training Choice|APPLIEDTO:Dagger|TYPE:Unchained Rogue Finesse Damage Choice.SpecialQuality.Extraordinary|DESC:Dexterity to Damage with %1&pipe;%LIST
 USERPOOL:Unchained Rogue Finesse Damage Choice|POOLPOINTS:0.0
+ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue Talent ~ Positioning Attack|TYPE:RogueTalent.Extraordinary.SpecialAttack.AttackOption.Unchained Rogue Talent|DESC:Once per day, when a rogue with this talent hits a creature with a melee attack, she can move up to 30 feet without provoking attacks of opportunity. The movement must end in a space adjacent to the creature hit with the melee attack.
 ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Bleeding Attack|TYPE:SpecialAttack.Extraordinary.Unchained Rogue Talent.AttackOption|DESC:You can cause living opponents to bleed when hitting them with a sneak attack. This attack causes the target to take %1 additional points of damage each round. Bleeding creatures take that amount of damage every round at the start of their turns. The bleeding can be stopped by a DC 15 Heal check or the application of any effect that heals hit point damage. Bleeding damage from this ability does not stack with itself. Bleeding damage bypasses any damage reduction the creature might possess.&pipe;SneakAttackDice
 ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Slow Reactions|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:Opponents damaged by your sneak attack can't make attacks of opportunity for 1 round.
 USERPOOL:Unchained Rogue Talent|POOLPOINTS:0.0
@@ -189,34 +191,23 @@ WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:S
 WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
 
 # Character Equipment
-MONEY:1382.00
-EQUIPNAME:+1 Composite Shortbow|OUTPUTORDER:12|COST:2375.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Composite Shortbow (Base)|DATA:NAME=+1 Composite Shortbow$KEY=+1 Composite Shortbow (Base)$EQMOD=Material ~ Wood.Special Ability ~ +1 ~ Weapon]
+MONEY:1381.00
 EQUIPNAME:+1 Dagger|OUTPUTORDER:1|COST:2302.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=+1 Dagger$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Weapon$SPROP=(+1 Dagger)]
-EQUIPNAME:+2 Composite Shortbow|OUTPUTORDER:6|COST:8375.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Composite Shortbow (Base)|DATA:NAME=+2 Composite Shortbow$KEY=+2 Composite Shortbow (Base)$EQMOD=Material ~ Wood.Special Ability ~ +2 ~ Weapon]
-EQUIPNAME:Arrow|OUTPUTORDER:4|COST:0.05|WT:0.15|QUANTITY:19.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
-EQUIPNAME:Ballista (Light)|OUTPUTORDER:0|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Bottle of Fine Wine|OUTPUTORDER:9|COST:10|WT:1.5|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wine (Fine/Bottle)|DATA:NAME=Bottle of Fine Wine$KEY=Wine (Fine/Bottle)]
-EQUIPNAME:Drums|OUTPUTORDER:10|COST:5.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Drums (Base)|DATA:NAME=Drums$KEY=Drums (Base)$EQMOD=Material ~ Wood]
-EQUIPNAME:Leather Armor|OUTPUTORDER:3|COST:10.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather Armor (Base)|DATA:NAME=Leather Armor$KEY=Leather$EQMOD=Material ~ Leather]
-EQUIPNAME:Miner's Pick|OUTPUTORDER:0|COST:3|WT:10.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Potion (Vanish/Wizard/5th)|OUTPUTORDER:8|COST:250.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion|DATA:NAME=Potion (Vanish/Wizard/5th)$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Vanish&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;5&rbracket;]
-EQUIPNAME:Rapier|OUTPUTORDER:11|COST:20.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier (Base)|DATA:NAME=Rapier$EQMOD=Material ~ Steel]
-EQUIPNAME:Snowshoes|OUTPUTORDER:2|COST:5|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:+2 Composite Shortbow|OUTPUTORDER:5|COST:8375.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Composite Shortbow (Base)|DATA:NAME=+2 Composite Shortbow$KEY=+2 Composite Shortbow (Base)$EQMOD=Material ~ Wood.Special Ability ~ +2 ~ Weapon]
+EQUIPNAME:Arrow|OUTPUTORDER:3|COST:0.05|WT:0.15|QUANTITY:14.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Arrows (20)|OUTPUTORDER:4|COST:1.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrows (20)$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Leather Armor|OUTPUTORDER:2|COST:10.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather Armor (Base)|DATA:NAME=Leather Armor$KEY=Leather$EQMOD=Material ~ Leather]
+EQUIPNAME:Potion (Vanish/Wizard/5th)|OUTPUTORDER:6|COST:250.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion|DATA:NAME=Potion (Vanish/Wizard/5th)$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Vanish&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;5&rbracket;]
+EQUIPNAME:Rapier|OUTPUTORDER:7|COST:20.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier (Base)|DATA:NAME=Rapier$EQMOD=Material ~ Steel]
 EQUIPNAME:Tent|OUTPUTORDER:10|COST:10|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Tent (Small)|DATA:NAME=Tent$KEY=Tent (Small)]
-EQUIPNAME:Zircon|OUTPUTORDER:7|COST:50|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Armor|ID:0.1.01|VALUE:Leather Armor|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Secondary Hand|ID:0.1.08|VALUE:+1 Dagger|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.16|VALUE:+1 Dagger|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.21|VALUE:Arrow|QUANTITY:19.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.22|VALUE:+2 Composite Shortbow|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.23|VALUE:Zircon|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Torso|ID:0.1.24|VALUE:Snowshoes|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.25|VALUE:Potion (Vanish/Wizard/5th)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.27|VALUE:Bottle of Fine Wine|QUANTITY:5.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.29|VALUE:Drums|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.30|VALUE:Rapier|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.31|VALUE:+1 Composite Shortbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.31|VALUE:Arrows (20)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:+2 Composite Shortbow|ID:0.2|VALUE:+2 Composite Shortbow|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
