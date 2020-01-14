@@ -60,15 +60,16 @@ ALIGN:LG
 RACE:Human
 
 # Character Class(es)
-CLASS:Paladin|LEVEL:5|SKILLPOOL:0
+CLASS:Paladin|LEVEL:6|SKILLPOOL:0
 CLASSABILITIESLEVEL:Paladin=1|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Paladin=2|HITPOINTS:9|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Paladin=3|HITPOINTS:4|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Paladin=4|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Paladin=5|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=6|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:18043
+EXPERIENCE:23243
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -106,21 +107,21 @@ SKILL:Handle Animal|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|C
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
 SKILL:Heal|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Intimidate|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Intimidate|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:30|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
 SKILL:Knowledge (Nature)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Nobility)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Religion)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:36|
-SKILL:Perception|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Paladin|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Perception|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Paladin|RANKS:5.0|COST:1|CLASSSKILL:N]
 SKILL:Perform (Untrained)|OUTPUTORDER:39|
 SKILL:Profession (Herbalist)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Profession (Untrained)|OUTPUTORDER:41|
 SKILL:Ride|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Samurai Mount|OUTPUTORDER:43|
-SKILL:Sense Motive|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Paladin|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:45|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:46|
 SKILL:Spellcraft|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -159,15 +160,17 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Word of Healing|TYPE:General|DESC:Usi
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paladin|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Energy Resistance Paladin|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassPaladin|DESC:Add +1 to the paladin's energy resistance to one kind of energy (maximum +10).
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Energy Resistance Paladin|APPLIEDTO:,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassPaladin|DESC:Add +1 to the paladin's energy resistance to one kind of energy (maximum +10).
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Sense Motive,Perception,Diplomacy|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
 USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
+ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Dazed|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the target is no longer dazed.
 ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Sickened|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the target is no longer sickened.
 USERPOOL:Mercy|POOLPOINTS:0.0
 ABILITY:Paladin Energy Resistance|TYPE:NORMAL|CATEGORY:Internal|KEY:Paladin Resistance ~ Cold|APPLIEDTO:|TYPE:PaladinFavoredEnergyResistance
+ABILITY:Paladin Energy Resistance|TYPE:NORMAL|CATEGORY:Internal|KEY:Paladin Resistance ~ Fire|APPLIEDTO:|TYPE:PaladinFavoredEnergyResistance
 USERPOOL:Paladin Energy Resistance|POOLPOINTS:0.0
 ABILITY:Special Mount Choice|TYPE:NORMAL|CATEGORY:Internal|KEY:Special Mount ~ Expanded Choices|TYPE:SpecialMountSelection.SpecialMountAlternate
 USERPOOL:Special Mount Choice|POOLPOINTS:0.0
@@ -190,24 +193,24 @@ WEAPONPROF:[WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:T
 WEAPONPROF:[WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:67.5499999999999971578290569595992565155029296875
+MONEY:603.549999999999954525264911353588104248046875
 EQUIPNAME:Belt of Mighty Constitution +2|OUTPUTORDER:3|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Bolts, Crossbow (10)|OUTPUTORDER:6|COST:0.1|WT:0.1|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Base)|DATA:NAME=Bolts, Crossbow (10)$KEY=Bolts (Crossbow/10)$EQMOD=Material ~ Steel.Material ~ Wood]
 EQUIPNAME:Crossbow, Light|OUTPUTORDER:7|COST:0.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Light Crossbow (Base)|DATA:NAME=Crossbow, Light$KEY=Crossbow (Light)$EQMOD=Material ~ Wood$COSTMOD=-35.0]
 EQUIPNAME:Full Plate|OUTPUTORDER:4|COST:1500.0|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Full Plate (Base)|DATA:NAME=Full Plate$EQMOD=Material ~ Steel]
 EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:2|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Base)|DATA:NAME=Gauntlet$KEY=Gauntlet (Part of Armor Suit)]
 EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Base)|DATA:NAME=Gauntlet$KEY=Gauntlet (Part of Armor Suit)]
-EQUIPNAME:Masterwork Longsword|OUTPUTORDER:2|COST:0.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword (Base)|DATA:NAME=Masterwork Longsword$KEY=Masterwork Longsword (Base)$EQMOD=Special Quality ~ Masterwork ~ Weapon.Material ~ Steel$COSTMOD=-315.0]
-EQUIPNAME:Sword, Short|OUTPUTORDER:1|COST:10.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Short Sword (Base)|DATA:NAME=Sword, Short$KEY=Sword (Short)$EQMOD=Material ~ Steel]
+EQUIPNAME:Masterwork Heavy Steel Shield|OUTPUTORDER:2|COST:170.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Heavy Steel Shield (Base)|DATA:NAME=Masterwork Heavy Steel Shield$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Armor$SPROP=(Masterwork Heavy Steel Shield)]
+EQUIPNAME:Masterwork Longsword|OUTPUTORDER:1|COST:0.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword (Base)|DATA:NAME=Masterwork Longsword$KEY=Masterwork Longsword (Base)$EQMOD=Special Quality ~ Masterwork ~ Weapon.Material ~ Steel$COSTMOD=-315.0]
 EQUIPNAME:Uniform (Soldier's)|OUTPUTORDER:5|COST:1|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Armor|ID:0.1.01|VALUE:Full Plate|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.05|VALUE:Uniform (Soldier's)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Secondary Hand|ID:0.1.06|VALUE:Gauntlet|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.07|VALUE:Bolts, Crossbow (10)|QUANTITY:3.0|USETEMPMODS:Y
 EQUIPSET:Belt|ID:0.1.08|VALUE:Belt of Mighty Constitution +2|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.09|VALUE:Masterwork Longsword|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.10|VALUE:Crossbow, Light|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand|ID:0.1.11|VALUE:Masterwork Heavy Steel Shield|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses

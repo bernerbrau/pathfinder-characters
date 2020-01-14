@@ -59,15 +59,16 @@ ALIGN:TN
 RACE:Companion (Yak)
 
 # Character Class(es)
-CLASS:Companion|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Companion|LEVEL:6|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Companion=1|HITPOINTS:8|SKILLSGAINED:1|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Companion=2|HITPOINTS:8|SKILLSGAINED:1|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Companion=3|HITPOINTS:3|SKILLSGAINED:1|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Companion=4|HITPOINTS:3|SKILLSGAINED:1|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Companion=5|HITPOINTS:8|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Companion=6|HITPOINTS:0|SKILLSGAINED:1|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:0
+EXPERIENCE:23000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -79,10 +80,56 @@ TEMPLATESAPPLIED:[NAME:Gore 1 (Medium)]
 REGION:None
 
 # Character Skills
-SKILL:Acrobatics|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Climb|CLASSBOUGHT:[CLASS:Companion|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Perception|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Swim|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Companion|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:10|
+SKILL:Diplomacy|OUTPUTORDER:11|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
+SKILL:Disguise|OUTPUTORDER:17|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
+SKILL:Escape Artist|OUTPUTORDER:19|
+SKILL:Fly|OUTPUTORDER:20|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:23|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:24|
+SKILL:Heal|OUTPUTORDER:25|
+SKILL:Intimidate|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:30|
+SKILL:Perception|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:33|
+SKILL:Profession (Untrained)|OUTPUTORDER:34|
+SKILL:Ride|OUTPUTORDER:35|
+SKILL:Samurai Mount|OUTPUTORDER:36|
+SKILL:Sense Motive|OUTPUTORDER:37|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:38|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:39|
+SKILL:Stealth|OUTPUTORDER:42|
+SKILL:Survival|OUTPUTORDER:43|
+SKILL:Swim|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:45|
+SKILL:Untrained Dexterity|OUTPUTORDER:46|
+SKILL:Untrained Intelligence|OUTPUTORDER:47|
+SKILL:Untrained Strength|OUTPUTORDER:48|
+SKILL:Untrained Wisdom|OUTPUTORDER:49|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:31|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:40|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:41|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:50|
 
 # Character Languages
 
@@ -113,6 +160,7 @@ ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Man
 ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Rescue|TYPE:AnimalTrick|DESC:The companion has been trained to drag its handler or another creature that the handler designates out of danger and to a safe place in the event that the handler or creature is incapacitated. If a creature that the companion is defending is rendered helpless or is slain, the companion will carry, drag, or otherwise move that creature out of danger. If the companion knows the get help trick, it will attempt to bring the creature it is rescuing to one of the creatures designated as "help." Otherwise, you can designate a single location in advance as a safe place, and the companion will attempt to bring the creature it is rescuing to that place. If it is unable to do either of these, the companion simply moves the creature to the nearest location of relative safety.
 ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Speak|TYPE:AnimalTrick|DESC:The companion is able to communicate very simple concepts through barks, gestures, whistles, or similar actions. The companion's vocabulary is extremely limited, generally restricted to "yes," "no," and counting up to three. The companion is also able to recognize and respond to up to two specific questions per point of Intelligence.
 ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Stay|TYPE:AnimalTrick|DESC:The animal stays in place, waiting for you to return. It does not challenge other creatures that come by, though it still defends itself if it needs to.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Track|TYPE:AnimalTrick|DESC:The animal tracks the scent presented to it. (This requires the animal to have the scent ability.)
 ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Watch|TYPE:AnimalTrick|DESC:The animal can be commanded to keep watch over a particular area, such as a campsite, and raise an alarm if it notices any sizable or dangerous creature entering the area.
 ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Work|TYPE:AnimalTrick|DESC:The animal pulls or pushes a medium or heavy load.
 USERPOOL:Animal Trick|POOLPOINTS:0.0
@@ -151,7 +199,7 @@ CHARACTERDMNOTES:
 KIT:Companion ~ Yak
 
 # Character Master/Follower
-MASTER:Zeevas|TYPE:Special Mount|HITDICE:3|FILE:Zeevas.pcg|ADJUSTMENT:0
+MASTER:Zeevas|TYPE:Special Mount|HITDICE:4|FILE:Zeevas.pcg|ADJUSTMENT:0
 
 # Character Notes Tab
 
