@@ -162,6 +162,7 @@ ABILITY:Elf Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subty
 USERPOOL:Elf Racial Subtype|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Alertness|TYPE:General.CloakedWolfBonusFeat|DESC:You often notice things that others might miss.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.DruidShamanLion.CloakedWolfBonusFeat|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Outflank|TYPE:Combat.Teamwork|DESC:You look for every edge when flanking an enemy.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:Combat|DESC:You can fight with a weapon in each of your hands. You can make one extra attack each round with the secondary weapon.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue|TYPE:FavoredClass
