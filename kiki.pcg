@@ -1,8 +1,8 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Pathfinder RPG for Players|CAMPAIGN:Advanced Class Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Wilderness
-VERSION:6.08.00 RC6
+CAMPAIGN:Ultimate Wilderness|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Advanced Class Guide|CAMPAIGN:Pathfinder RPG for Players|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Combat|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary
+VERSION:6.08.00 RC8
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
@@ -70,13 +70,12 @@ CLASSABILITIESLEVEL:Rogue=5|HITPOINTS:7|SKILLSGAINED:12|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Shadowdancer=1|HITPOINTS:8|SKILLSGAINED:10|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:29880
+EXPERIENCE:33745
 EXPERIENCETABLE:Medium
 
 # Character Templates
 TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
 TEMPLATESAPPLIED:[NAME:REACH_5]
-TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Giant]
 TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Celestial]
 TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Draconic]
 TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Gnoll]
@@ -84,28 +83,29 @@ TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Gnome]
 TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Goblin]
 TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Orc]
 TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Sylvan]
+TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Giant]
 
 # Character Region
 REGION:None
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|
 SKILL:Artistry|OUTPUTORDER:4|
-SKILL:Bluff|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
-SKILL:Climb|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:5|
 SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:31|
 SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:43|
 SKILL:Craft (Locks)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Craft (Traps)|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Craft (Untrained)|OUTPUTORDER:14|
-SKILL:Diplomacy|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:16|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:17|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:18|
@@ -113,7 +113,7 @@ SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:19|
 SKILL:Disable Device|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:23|
-SKILL:Escape Artist|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Escape Artist|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Fly|OUTPUTORDER:25|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:26|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:28|
@@ -123,11 +123,11 @@ SKILL:Intimidate|OUTPUTORDER:32|
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:33|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:34|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:35|
-SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:37|
-SKILL:Linguistics|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Read Lips
-SKILL:Perception|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (Dance)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Linguistics|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Read Lips
+SKILL:Perception|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Dance)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:42|
 SKILL:Profession (Untrained)|OUTPUTORDER:44|
 SKILL:Ride|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:N]
@@ -135,8 +135,8 @@ SKILL:Samurai Mount|OUTPUTORDER:46|
 SKILL:Sense Motive|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:48|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:49|
-SKILL:Sleight of Hand|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Shadowdancer|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Survival|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Swim|OUTPUTORDER:55|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Untrained Charisma|OUTPUTORDER:56|
@@ -146,7 +146,7 @@ SKILL:Untrained Strength|OUTPUTORDER:59|
 SKILL:Untrained Wisdom|OUTPUTORDER:60|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:20|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:27|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:38|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:39|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:52|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:61|
@@ -191,7 +191,7 @@ ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Kin Bond|TYPE:Tr
 USERPOOL:Traits|POOLPOINTS:0.0
 ABILITY:Unchained Rogue Finesse Damage Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue ~ Finesse Training Choice|APPLIEDTO:Dagger|TYPE:Unchained Rogue Finesse Damage Choice.SpecialQuality.Extraordinary|DESC:Dexterity to Damage with %1&pipe;%LIST
 USERPOOL:Unchained Rogue Finesse Damage Choice|POOLPOINTS:0.0
-ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Combat Trick|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:You gain a bonus combat feat.
+ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Combat Trick|APPLIEDTO:|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:You gain a bonus combat feat.
 ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue Talent ~ Slow Reactions|TYPE:SpecialQuality.Extraordinary.Unchained Rogue Talent|DESC:Opponents damaged by your sneak attack can't make attacks of opportunity for 1 round.
 USERPOOL:Unchained Rogue Talent|POOLPOINTS:0.0
 
@@ -203,10 +203,12 @@ WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:S
 WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
 
 # Character Equipment
-MONEY:3413.50
+MONEY:3733.50
+EQUIPNAME:+1 Chain Shirt|OUTPUTORDER:0|COST:1250.0|WT:25.0|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt (Base)|DATA:NAME=+1 Chain Shirt$KEY=+1 Chain Shirt (Base)$EQMOD=Special Ability ~ +1 ~ Armor]
 EQUIPNAME:+1 Composite Shortbow|OUTPUTORDER:30|COST:2375.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Composite Shortbow (Base)|DATA:NAME=+1 Composite Shortbow$KEY=+1 Composite Shortbow (Base)$EQMOD=Special Ability ~ +1 ~ Weapon]
 EQUIPNAME:+1 Dagger|OUTPUTORDER:3|COST:2302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=+1 Dagger$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Weapon$SPROP=(+1 Dagger)]
 EQUIPNAME:+1 Handaxe|OUTPUTORDER:0|COST:2306.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Handaxe (Base)|DATA:NAME=+1 Handaxe$EQMOD=Special Ability ~ +1 ~ Weapon$SPROP=(+1 Handaxe)]
+EQUIPNAME:+1 Heavy Flail|OUTPUTORDER:0|COST:2315.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Heavy Flail (Base)|DATA:NAME=+1 Heavy Flail$KEY=+1 Heavy Flail (Base)$EQMOD=Special Quality ~ Disarm.Special Quality ~ Trip.Special Ability ~ +1 ~ Weapon]
 EQUIPNAME:+1 Mithral Dagger|OUTPUTORDER:2|COST:2502.0|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=+1 Mithral Dagger$EQMOD=Special Ability ~ +1 ~ Weapon.Material ~ Mithril ~ Weapon / Item$SPROP=(Mithral/+1 Dagger)]
 EQUIPNAME:+1 Mithral Shirt|OUTPUTORDER:6|COST:2100.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mithral Shirt|DATA:NAME=+1 Mithral Shirt$EQMOD=Material ~ Mithril ~ Armor / Light.Special Ability ~ +1 ~ Armor]
 EQUIPNAME:+2 Leather Armor (Angelskin)|OUTPUTORDER:14|COST:5010.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather Armor (Base)|DATA:NAME=+2 Leather Armor (Angelskin)$KEY=+2 Leather Armor (Base/Angelskin)$EQMOD=Material ~ Angelskin ~ Armor / Light.Special Ability ~ +2 ~ Armor]
@@ -217,20 +219,23 @@ EQUIPNAME:Backpack|OUTPUTORDER:15|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Bag of Holding (Type I)|OUTPUTORDER:7|COST:2500|WT:15.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Dagger|OUTPUTORDER:28|COST:2.0|WT:1.0|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger$EQMOD=STEEL]
 EQUIPNAME:Gold and Pearl Holy Symbol of Sarenrae|OUTPUTORDER:12|COST:100.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol|DATA:NAME=Gold and Pearl Holy Symbol of Sarenrae$EQMOD=Holy Symbol (Gold)$SPROP=(Gold Holy Symbol)]
+EQUIPNAME:Light Crossbow|OUTPUTORDER:0|COST:35|WT:4.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Light Crossbow (Base)|DATA:KEY=Light Crossbow (Base)]
 EQUIPNAME:Longbow|OUTPUTORDER:11|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Base)|DATA:NAME=Longbow$EQMOD=WOOD]
-EQUIPNAME:Masterwork Dagger|OUTPUTORDER:33|COST:302.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Masterwork Dagger$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon$SPROP=(Masterwork Dagger)]
+EQUIPNAME:Masterwork Breastplate|OUTPUTORDER:0|COST:350.0|WT:30.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate (Base)|DATA:NAME=Masterwork Breastplate$KEY=Masterwork Breastplate (Base)$EQMOD=Special Quality ~ Masterwork ~ Armor]
+EQUIPNAME:Masterwork Dagger|OUTPUTORDER:33|COST:302.0|WT:1.0|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Masterwork Dagger$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon$SPROP=(Masterwork Dagger)]
+EQUIPNAME:Masterwork Light Crossbow|OUTPUTORDER:0|COST:335.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Light Crossbow (Base)|DATA:NAME=Masterwork Light Crossbow$KEY=Masterwork Light Crossbow (Base)$EQMOD=Special Quality ~ Masterwork ~ Weapon]
 EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:4|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$KEY=Outfit (Explorer_s)$COSTMOD=-10]
-EQUIPNAME:Poison, Black Adder Venom|OUTPUTORDER:27|COST:120|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Poison (Black Adder Venom)|DATA:KEY=Poison (Black Adder Venom)]
+EQUIPNAME:Poison, Black Adder Venom|OUTPUTORDER:27|COST:120|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Poison (Black Adder Venom)|DATA:NAME=Poison, Black Adder Venom$KEY=Poison (Black Adder Venom)]
 EQUIPNAME:Poison, Large Scorpion Venom|OUTPUTORDER:9|COST:200|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Poison (Large Scorpion Venom)|DATA:NAME=Poison, Large Scorpion Venom$KEY=Poison (Large Scorpion Venom)]
 EQUIPNAME:Potion of Bear's Endurance|OUTPUTORDER:23|COST:300.0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Bear's Endurance|DATA:NAME=Potion of Bear's Endurance$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Bear's Endurance&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
 EQUIPNAME:Potion of Cat's Grace|OUTPUTORDER:22|COST:300.0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cat's Grace|DATA:NAME=Potion of Cat's Grace$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cat's Grace&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
-EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:21|COST:50.0|WT:0.0|QUANTITY:9.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Light Wounds|DATA:NAME=Potion of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:26|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Moderate Wounds|DATA:EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Moderate Wounds&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:21|COST:50.0|WT:0.0|QUANTITY:13.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Light Wounds|DATA:NAME=Potion of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:26|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Moderate Wounds|DATA:NAME=Potion of Cure Moderate Wounds$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Moderate Wounds&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
 EQUIPNAME:Potion of Cure Serious Wounds|OUTPUTORDER:18|COST:750.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Serious Wounds|DATA:NAME=Potion of Cure Serious Wounds$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Serious Wounds&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;]
 EQUIPNAME:Potion of Delay Poison|OUTPUTORDER:24|COST:300.0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Delay Poison|DATA:NAME=Potion of Delay Poison$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Delay Poison&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
 EQUIPNAME:Potion of Feather Fall|OUTPUTORDER:19|COST:250.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion|DATA:NAME=Potion of Feather Fall$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Feather Fall&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;5&rbracket; $SPROP=(Potion (Feather Fall/Wizard/5th))]
 EQUIPNAME:Potion of Invisibility|OUTPUTORDER:20|COST:300.0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Invisibility|DATA:NAME=Potion of Invisibility$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Invisibility&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
-EQUIPNAME:Potion of Shield of Faith (CL 18th)|OUTPUTORDER:25|COST:900.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Shield of Faith +5|DATA:KEY=Potion of Shield of Faith +5$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Shield of Faith&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;18&rbracket;]
+EQUIPNAME:Potion of Shield of Faith (CL 18th)|OUTPUTORDER:25|COST:900.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Shield of Faith +5|DATA:NAME=Potion of Shield of Faith (CL 18th)$KEY=Potion of Shield of Faith +5$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Shield of Faith&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;18&rbracket;]
 EQUIPNAME:Ring (Hold Person)|OUTPUTORDER:31|COST:1200.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ring|DATA:NAME=Ring (Hold Person)$EQMOD=SPL_CON_STANDARD&pipe;SPELLNAME&lbracket;Hold Person&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;3&rbracket; $COSTMOD=-10800.0]
 EQUIPNAME:Rope (50 ft.)|OUTPUTORDER:8|COST:1|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rope (Hemp/50 ft)|DATA:NAME=Rope (50 ft.)$KEY=Rope (Hemp/50 ft)]
 EQUIPNAME:Rope (Silk 100 ft)|OUTPUTORDER:13|COST:10|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rope (Silk/50 ft)|DATA:NAME=Rope (Silk 100 ft)$SPROP=(Rope, Silk (50 ft.))]
@@ -270,9 +275,9 @@ EQUIPSET:Carried|ID:0.1.27|VALUE:Tanglefoot Bag|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.29|VALUE:Masterwork Dagger|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.30|VALUE:Potion of Feather Fall|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.31|VALUE:Acid|QUANTITY:3.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.32|VALUE:Alchemist's Fire|QUANTITY:4.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.33|VALUE:Potion of Invisibility|QUANTITY:2.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.34|VALUE:Potion of Cure Light Wounds|QUANTITY:9.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.32|VALUE:Alchemist's Fire|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.33|VALUE:Potion of Invisibility|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.34|VALUE:Potion of Cure Light Wounds|QUANTITY:8.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.35|VALUE:Potion of Cat's Grace|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.36|VALUE:Potion of Bear's Endurance|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.37|VALUE:Potion of Delay Poison|QUANTITY:2.0|USETEMPMODS:Y
