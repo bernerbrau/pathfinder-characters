@@ -107,7 +107,7 @@ SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
-SKILL:Disable Device|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Disable Device|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Rogue|RANKS:7.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
 SKILL:Escape Artist|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Rogue|RANKS:5.0|COST:1|CLASSSKILL:Y]
@@ -140,13 +140,13 @@ SKILL:Untrained Dexterity|OUTPUTORDER:54|
 SKILL:Untrained Intelligence|OUTPUTORDER:55|
 SKILL:Untrained Strength|OUTPUTORDER:56|
 SKILL:Untrained Wisdom|OUTPUTORDER:57|
-SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:37|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:47|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:49|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:59|
-SKILL:Use Magic Device|OUTPUTORDER:58|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:58|
+SKILL:Use Magic Device|OUTPUTORDER:59|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Orc|LANGUAGE:Read Lips
@@ -193,12 +193,13 @@ WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:S
 WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
 
 # Character Equipment
-MONEY:2562.90000000000009094947017729282379150390625
+MONEY:3128.90
 EQUIPNAME:+1 Dagger|OUTPUTORDER:1|COST:2302.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=+1 Dagger$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Weapon$SPROP=(+1 Dagger)]
 EQUIPNAME:+1 Mithral Shirt|OUTPUTORDER:3|COST:2100.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mithral Shirt|DATA:NAME=+1 Mithral Shirt$EQMOD=Material ~ Mithril ~ Armor / Light.Special Ability ~ +1 ~ Armor$SPROP=(+1 Mithral Shirt)]
 EQUIPNAME:+2 Composite Shortbow|OUTPUTORDER:9|COST:8375.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Composite Shortbow (Base)|DATA:NAME=+2 Composite Shortbow$KEY=+2 Composite Shortbow (Base)$EQMOD=Material ~ Wood.Special Ability ~ +2 ~ Weapon]
 EQUIPNAME:Arrow|OUTPUTORDER:5|COST:0.05|WT:0.15|QUANTITY:14.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
 EQUIPNAME:Arrows (20)|OUTPUTORDER:4|COST:0.05|WT:0.15|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrows (20)$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Copper Piece|OUTPUTORDER:15|COST:0.01|WT:0.02|QUANTITY:66.0|NOTE:|CUSTOMIZATION:[BASEITEM:Coin (Copper Piece)|DATA:KEY=Coin (Copper Piece)]
 EQUIPNAME:Potion (Vanish/Wizard/5th)|OUTPUTORDER:10|COST:250.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion|DATA:NAME=Potion (Vanish/Wizard/5th)$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Vanish&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;5&rbracket;]
 EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:6|COST:50.0|WT:0.0|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Light Wounds|DATA:NAME=Potion of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
 EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:7|COST:300.0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Moderate Wounds|DATA:NAME=Potion of Cure Moderate Wounds$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Moderate Wounds&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
@@ -206,7 +207,9 @@ EQUIPNAME:Potion of Cure Serious Wounds|OUTPUTORDER:8|COST:750.0|WT:0.0|QUANTITY
 EQUIPNAME:Rapier|OUTPUTORDER:11|COST:20.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier (Base)|DATA:NAME=Rapier$EQMOD=Material ~ Steel]
 EQUIPNAME:Ring ( Save Bonus (Resistance) (+1))|OUTPUTORDER:2|COST:1000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ring|DATA:NAME=Ring ( Save Bonus (Resistance) (+1))$EQMOD=Special Ability ~ Bonus Save / Resistance&pipe;+1]
 EQUIPNAME:Sap|OUTPUTORDER:13|COST:1.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sap (Base)|DATA:NAME=Sap$KEY=Sap (Base)$EQMOD=Special Quality ~ Nonlethal]
+EQUIPNAME:Silver Piece|OUTPUTORDER:14|COST:0.1|WT:0.02|QUANTITY:66.0|NOTE:|CUSTOMIZATION:[BASEITEM:Coin (Silver Piece)|DATA:KEY=Coin (Silver Piece)]
 EQUIPNAME:Tent|OUTPUTORDER:12|COST:10|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Tent (Small)|DATA:NAME=Tent$KEY=Tent (Small)]
+EQUIPNAME:Vial (Distracting)|OUTPUTORDER:16|COST:1.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Vial|DATA:NAME=Vial (Distracting)$EQMOD=ADDTYPE&pipe;Distracting]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Secondary Hand|ID:0.1.08|VALUE:+1 Dagger|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.16|VALUE:+1 Dagger|QUANTITY:1.0|USETEMPMODS:Y
@@ -222,6 +225,9 @@ EQUIPSET:Equipped|ID:0.1.37|VALUE:Potion of Cure Moderate Wounds|QUANTITY:2.0|US
 EQUIPSET:Equipped|ID:0.1.38|VALUE:Potion of Cure Serious Wounds|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.39|VALUE:Sap|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Ring|ID:0.1.40|VALUE:Ring ( Save Bonus (Resistance) (+1))|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.41|VALUE:Silver Piece|QUANTITY:66.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.42|VALUE:Copper Piece|QUANTITY:66.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.43|VALUE:Vial (Distracting)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:+2 Composite Shortbow|ID:0.2|VALUE:+2 Composite Shortbow|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
